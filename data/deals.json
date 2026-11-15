@@ -1,0 +1,205 @@
+{
+ "updated": "2026-11-15T21:19:38+00:00",
+ "country": "CL",
+ "items": [
+  {
+   "id": "steam-2406770",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Bodycam",
+   "kind": "PC",
+   "now": 14400,
+   "was": 18000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/cb487d7dd3387dbd9513a9f8f001fa691c81c8ba/capsule_616x353_alt_assets_4.jpg?t=1794683329",
+   "url": "https://store.steampowered.com/app/2406770/",
+   "ends": 1795208400,
+   "link": "https://store.steampowered.com/app/2406770/",
+   "hist": [
+    14400
+   ]
+  },
+  {
+   "id": "steam-5185890",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Zombies Aren't Real",
+   "kind": "PC",
+   "now": 5849,
+   "was": 6499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/b81ce47d316a0b28e1f54f038f35de1ccf4bfa44/capsule_616x353.jpg?t=1794756301",
+   "url": "https://store.steampowered.com/app/5185890/",
+   "ends": 1795197606,
+   "link": "https://store.steampowered.com/app/5185890/",
+   "hist": [
+    5849
+   ]
+  },
+  {
+   "id": "steam-489830",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "kind": "PC",
+   "now": 5398,
+   "was": 26990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
+   "url": "https://store.steampowered.com/app/489830/",
+   "ends": 1795024800,
+   "link": "https://store.steampowered.com/app/489830/",
+   "hist": [
+    5398
+   ]
+  },
+  {
+   "id": "steam-817628",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+   "kind": "PC",
+   "now": 15286,
+   "was": 46322,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/817628/capsule_616x353.jpg?t=1752520763",
+   "url": "https://store.steampowered.com/app/817628/",
+   "ends": 1795111200,
+   "link": "https://store.steampowered.com/app/817628/",
+   "hist": [
+    15286
+   ]
+  },
+  {
+   "id": "steam-5378110",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "One More Lawn",
+   "kind": "PC",
+   "now": 3219,
+   "was": 4599,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg?t=1794604627",
+   "url": "https://store.steampowered.com/app/5378110/",
+   "ends": 1795716003,
+   "link": "https://store.steampowered.com/app/5378110/",
+   "hist": [
+    3219
+   ]
+  },
+  {
+   "id": "steam-227300",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Euro Truck Simulator 2",
+   "kind": "PC",
+   "now": 2874,
+   "was": 11499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
+   "url": "https://store.steampowered.com/app/227300/",
+   "ends": 1795539600,
+   "link": "https://store.steampowered.com/app/227300/",
+   "hist": [
+    2874
+   ]
+  },
+  {
+   "id": "steam-12210",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Grand Theft Auto IV: The Complete Edition",
+   "kind": "PC",
+   "now": 4497,
+   "was": 14990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
+   "url": "https://store.steampowered.com/app/12210/",
+   "ends": 1795111200,
+   "link": "https://store.steampowered.com/app/12210/",
+   "hist": [
+    4497
+   ]
+  },
+  {
+   "id": "steam-2584270",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Mortal Shell II",
+   "kind": "PC",
+   "now": 22425,
+   "was": 29900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
+   "url": "https://store.steampowered.com/app/2584270/",
+   "ends": 1794852000,
+   "link": "https://store.steampowered.com/app/2584270/",
+   "hist": [
+    22425
+   ]
+  },
+  {
+   "id": "steam-4459590",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Legión del azar - Slotbound",
+   "kind": "PC",
+   "now": 5849,
+   "was": 6499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/ab63370938a804df9d1250d239d4c997683fd7cd/capsule_616x353.jpg?t=1794746612",
+   "url": "https://store.steampowered.com/app/4459590/",
+   "ends": 1795716033,
+   "link": "https://store.steampowered.com/app/4459590/",
+   "hist": [
+    5849
+   ]
+  },
+  {
+   "id": "steam-2536520",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Diablo II: Resurrected – Infernal Edition",
+   "kind": "PC",
+   "now": 22743,
+   "was": 34990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+   "url": "https://store.steampowered.com/app/2536520/",
+   "ends": 1795024800,
+   "link": "https://store.steampowered.com/app/2536520/",
+   "hist": [
+    22743
+   ]
+  },
+  {
+   "id": "epic-9975548b6d404a94b8a9bdb34cad49e9",
+   "source": "epic",
+   "store": "Epic Games Store",
+   "cat": "juegos",
+   "name": "Knightica",
+   "kind": "PC · Gratis",
+   "now": 0,
+   "was": 6120,
+   "currency": "CLP",
+   "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+   "url": "https://store.epicgames.com/es-ES/p/knightica-3be45c",
+   "free": true,
+   "ends": "2026-11-19T16:00:00.000Z",
+   "link": "https://store.epicgames.com/es-ES/p/knightica-3be45c",
+   "hist": [
+    0
+   ]
+  }
+ ]
+}
