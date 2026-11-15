@@ -153,13 +153,14 @@ body.split-on .toast{bottom:calc(42vh + 12px)}
 .onb-dots span.on{background:var(--lime)}
 .onb-h{font-size:30px}
 .onb-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.onb-card{height:104px;border-radius:22px;border:2px solid var(--line);background:var(--card);display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:14px;position:relative;animation:rise .45s cubic-bezier(.2,.9,.3,1.2) both;text-align:left}
+.onb-card{min-height:84px;gap:8px;border-radius:22px;border:2px solid var(--line);background:var(--card);display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:14px;position:relative;animation:rise .45s cubic-bezier(.2,.9,.3,1.2) both;text-align:left}
 .onb-card b{font-size:16px}
-.onb-card .onb-ic{width:30px;height:30px;border-radius:10px;background:var(--c);transition:transform .3s}
+.onb-card .onb-ic{width:30px;height:30px;flex-shrink:0;border-radius:10px;background:var(--c);transition:transform .3s}
 .onb-card.on{border-color:var(--c);background:color-mix(in srgb, var(--c) 16%, var(--card))}
 .onb-card.on .onb-ic{transform:rotate(18deg) scale(1.1)}
 .onb-ok{position:absolute;right:12px;top:12px;width:26px;height:26px;border-radius:50%;background:var(--c);color:var(--bg);font-weight:800;display:flex;align-items:center;justify-content:center;animation:pop .35s ease-out}
 .onb-money{font-weight:800;font-size:48px;color:var(--lime);text-align:center;margin:18px 0 4px}
+.onb-soon{font-size:11px;font-weight:700;color:var(--mute);letter-spacing:.04em}
 .onb-sizes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .onb-sizes .chip{padding:0}
 .buy[disabled]{opacity:.4}
@@ -254,6 +255,14 @@ const COLORS = ['#C6FF3D','#FF7A1A','#3DD9FF','#8B5CFF','#FF5CA8','#FFD23D','#7C
 const P = [];
 const byId = {};
 const CATS = [['juegos','Juegos'],['gift','Gift cards']];
+const INTERESTS = [
+  ['juegos','Juegos de PC'],['consolas','Consolas'],['gift','Gift cards'],['gamer','Accesorios gamer'],
+  ['tech','Tecnología'],['celulares','Celulares'],['audio','Audífonos y parlantes'],['zapas','Zapatillas'],
+  ['ropa','Ropa y streetwear'],['accesorios','Gorros, mochilas y más'],['anime','Anime y manga'],['figuras','Figuras y coleccionables'],
+  ['comics','Cómics y libros'],['musica','Música y vinilos'],['deportes','Deportes'],['skate','Skate y bici'],
+  ['belleza','Cuidado personal'],['peliculas','Películas y series'],['mascotas','Mascotas'],['hogar','Para tu pieza']
+];
+const ICOLORS = ['#FF7A1A','#FF5CA8','#3DD9FF','#8B5CFF','#C6FF3D','#FFD23D','#7CF0C5','#B79CFF','#FF9F6B'];
 const DAYS = [];
 let UPDATED = null, LOADING = true;
 function toProduct(it){
@@ -328,7 +337,7 @@ const S = {
   budgetOn: false
 };
 const onb = {step:0, cats:{}, budget:20000, weekly:5000, size:'', name:''};
-const inPrefs = p => !S.prefs || !S.prefs.cats.length || S.prefs.cats.includes(p.cat);
+const inPrefs = p => !S.prefs || !S.prefs.cats.length || S.prefs.cats.includes(p.cat) || !P.some(q => S.prefs.cats.includes(q.cat));
 const budget = () => S.prefs && S.prefs.budget != null ? S.prefs.budget : 20000;
 const weekly = () => (S.prefs && S.prefs.weekly) || 5000;
 const missing = p => Math.max(0, p.now - budget());
@@ -491,7 +500,7 @@ function viewHoy(){
         <span style="font-size:14px;font-weight:500">${esc(hero.store)} · ${hero.free ? 'antes ' + clp(hero.was) : clp(hero.now) + ' · antes ' + clp(hero.was)}</span></div>
       <span class="cta">${hero.free ? 'Lo quiero' : 'Ver oferta'} <span style="color:var(--lime)">${IC.arrow}</span></span>
     </button>
-    <div class="chips" role="group" aria-label="Filtrar ofertas">${chips.map(([id,l]) => `<button class="chip ${S.chip===id?'on':''}" data-chip="${id}" aria-pressed="${S.chip===id}">${l}</button>`).join('')}</div>
+    <div class="chips" role="group" aria-label="Filtrar ofertas">${chips.map(([id,l]) => `<button class="chip ${S.chip===id?'on':''}" data-chip="${id}" aria-pressed="${S.chip===id}">${l}</button>`).join('')}<button class="chip" data-onboard style="border-style:dashed">+ Intereses</button></div>
     ${S.chip !== 'gift' ? `<div class="row between" style="align-items:baseline"><h2>${forYou && S.prefs ? 'Bajaron, para ti' : 'Bajaron de precio'}</h2><span class="small mute">${list.length} ofertas</span></div>
     <div class="hscroll">${list.length ? list.map((p,i) => dealCard(p,i)).join('') : '<div class="empty" style="flex:1">Sin ofertas en esta categoría hoy.</div>'}</div>` : ''}
     <div class="mesada">
@@ -534,7 +543,8 @@ function drawOnb(){
   let body = '';
   if (s === 0) body = `<h1 class="onb-h">¿Qué te mueve?</h1><div class="mute">Elige todo lo que te interese. Lo cambias cuando quieras.</div>
     <label class="search" style="margin-top:4px"><input id="onbname" type="text" maxlength="14" placeholder="¿Cómo te decimos? (opcional)" value="${esc(onb.name)}" aria-label="Tu nombre o apodo" autocomplete="off"></label>
-    <div class="onb-grid">${CATS.map(([id, l], i) => `<button class="onb-card ${onb.cats[id] ? 'on' : ''}" data-onbcat="${id}" aria-pressed="${!!onb.cats[id]}" style="--c:${['#FF7A1A','#FF5CA8','#3DD9FF','#8B5CFF','#C6FF3D'][i]};animation-delay:${i*70}ms"><span class="onb-ic"></span><b>${l}</b>${onb.cats[id] ? '<span class="onb-ok">✓</span>' : ''}</button>`).join('')}</div>`;
+    <div class="onb-grid">${INTERESTS.map(([id, l], i) => { const soon = !P.some(p => p.cat === id); return `<button class="onb-card ${onb.cats[id] ? 'on' : ''}" data-onbcat="${id}" aria-pressed="${!!onb.cats[id]}" style="--c:${ICOLORS[i % ICOLORS.length]};animation-delay:${Math.min(i, 10)*40}ms"><span class="onb-ic"></span><b>${l}</b>${soon ? '<span class="onb-soon">Pronto</span>' : ''}${onb.cats[id] ? '<span class="onb-ok">✓</span>' : ''}</button>`; }).join('')}</div>
+    <div class="small mute">Las marcadas como "Pronto" se activan cuando sumemos esas tiendas. Puedes cambiar tus intereses cuando quieras desde "+ Intereses" en la pantalla principal.</div>`;
   if (s === 1) body = `<h1 class="onb-h">Tu plata</h1><div class="mute">Con esto calculamos qué te alcanza hoy y en cuántas semanas llegas a lo que quieres.</div>
     <div class="card stack" style="gap:10px"><div class="row between"><span style="font-weight:700">Tengo ahorrado</span><span class="disp" id="onbv" style="font-weight:800;color:var(--lime)">${fmt(onb.budget)}</span></div>
       <input class="range" id="onbb" type="range" min="0" max="150000" step="1000" value="${onb.budget}" aria-label="Cuánto tengo ahorrado"></div>
@@ -548,7 +558,7 @@ function drawOnb(){
     ${body}
     <div style="margin-top:auto;padding-bottom:calc(env(safe-area-inset-bottom) + 24px);display:flex;gap:10px">
       ${s > 0 ? `<button class="chip" data-onbback style="height:58px;padding:0 20px">Atrás</button>` : ''}
-      <button class="buy" data-onbnext style="flex:1;border:0" ${s === 0 && !nCats ? 'disabled aria-disabled="true"' : ''}>${s < steps - 1 ? 'Seguir' : 'Listo, armar mi radar'} ${IC.arrow}</button>
+      <button class="buy" data-onbnext style="flex:1;border:0" ${s === 0 && !nCats ? 'disabled aria-disabled="true"' : ''}>${s === 0 && S.prefs ? 'Guardar intereses' : s < steps - 1 ? 'Seguir' : 'Listo, armar mi radar'} ${IC.arrow}</button>
     </div></div>`;
   const r = document.getElementById('onbb');
   if (r) r.addEventListener('input', e => { onb.budget = +e.target.value; document.getElementById('onbv').textContent = fmt(onb.budget); });
@@ -724,7 +734,7 @@ document.addEventListener('click', e => {
   else if ('onboard' in d){ openOnboarding(); }
   else if (d.onbcat){ onb.cats[d.onbcat] = !onb.cats[d.onbcat]; drawOnb(); }
   else if (d.onbsize){ onb.size = onb.size === d.onbsize ? '' : d.onbsize; drawOnb(); }
-  else if ('onbnext' in d){ if (onb.step === 0 && !Object.values(onb.cats).some(Boolean)) return; if (onb.step < 2){ onb.step++; drawOnb(); document.getElementById('sheet').scrollTop = 0; } else finishOnb(); }
+  else if ('onbnext' in d){ if (onb.step === 0 && !Object.values(onb.cats).some(Boolean)) return; if (onb.step === 0 && S.prefs){ finishOnb(); } else if (onb.step < 2){ onb.step++; drawOnb(); document.getElementById('sheet').scrollTop = 0; } else finishOnb(); }
   else if ('onbback' in d){ onb.step = Math.max(0, onb.step - 1); drawOnb(); }
   else if ('onbskip' in d){ if (!S.prefs){ S.prefs = {cats: Object.keys(onb.cats).filter(k => onb.cats[k]), budget: onb.budget, size: onb.size, name: onb.name.trim(), weekly: onb.weekly}; save(); } closeSheet(); }
   else if (d.age){ if (d.age === 'yes'){ S.adult = true; save(); if (!S.prefs) openOnboarding(); else closeSheet(); } else { openAge(true); } }
