@@ -474,7 +474,7 @@ function viewHoy(){
   if (!hero) return `<div class="stack"><h1>${LOADING ? 'Buscando <span style="color:var(--lime)">ofertas</span>…' : 'Sin ofertas por ahora'}</h1><div class="empty">${LOADING ? 'Cargando precios de Steam y Epic.' : 'Revisa tu conexión y vuelve a abrir la app.'}</div></div>`;
   const gifts = P.filter(p => p.gift);
   const showGifts = S.chip === 'gift' || (forYou && inPrefs({cat:'gift'}));
-  const chips = [['todo', S.prefs ? 'Para ti' : 'Todo'], ...CATS];
+  const chips = [['todo', S.prefs ? 'Para ti' : 'Todo'], ...CATS.filter(([id]) => P.some(p => p.cat === id))];
   const b = budget(), fits = P.filter(p => p.now > 0 && p.now <= b).length;
   const hot = free.length >= 2 ? `Hoy hay <span style="color:var(--lime)">${free.length} juegos</span> gratis.` : `Lo más <span style="color:var(--lime)">hot</span> de hoy${S.prefs && S.prefs.name ? ', ' + esc(S.prefs.name) : ''}.`;
   const nAlerts = Object.values(S.alerts).filter(a => a.on).length;
