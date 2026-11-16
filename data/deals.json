@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:43:34+00:00",
+ "updated": "2026-11-16T10:20:18+00:00",
  "country": "CL",
  "items": [
   {
@@ -21,19 +21,91 @@
    ]
   },
   {
-   "id": "steam-5185890",
+   "id": "steam-266410",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Zombies Aren't Real",
+   "name": "iRacing",
+   "kind": "PC",
+   "now": 2645,
+   "was": 6613,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+   "url": "https://store.steampowered.com/app/266410/",
+   "ends": 1794852000,
+   "link": "https://store.steampowered.com/app/266410/",
+   "hist": [
+    2645
+   ]
+  },
+  {
+   "id": "steam-266410",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "iRacing",
+   "kind": "PC",
+   "now": 2645,
+   "was": 6613,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+   "url": "https://store.steampowered.com/app/266410/",
+   "ends": 1794852000,
+   "link": "https://store.steampowered.com/app/266410/",
+   "hist": [
+    2645
+   ]
+  },
+  {
+   "id": "steam-266410",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "iRacing",
+   "kind": "PC",
+   "now": 2645,
+   "was": 6613,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+   "url": "https://store.steampowered.com/app/266410/",
+   "ends": 1794852000,
+   "link": "https://store.steampowered.com/app/266410/",
+   "hist": [
+    2645
+   ]
+  },
+  {
+   "id": "steam-3321460",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Crimson Desert Enhanced",
+   "kind": "PC",
+   "now": 47999,
+   "was": 59999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1794478066",
+   "url": "https://store.steampowered.com/app/3321460/",
+   "ends": 1796025600,
+   "link": "https://store.steampowered.com/app/3321460/",
+   "hist": [
+    47999
+   ]
+  },
+  {
+   "id": "steam-4459590",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Legión del azar - Slotbound",
    "kind": "PC",
    "now": 5849,
    "was": 6499,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/b81ce47d316a0b28e1f54f038f35de1ccf4bfa44/capsule_616x353.jpg?t=1794756301",
-   "url": "https://store.steampowered.com/app/5185890/",
-   "ends": 1795197606,
-   "link": "https://store.steampowered.com/app/5185890/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/ab63370938a804df9d1250d239d4c997683fd7cd/capsule_616x353.jpg?t=1794746612",
+   "url": "https://store.steampowered.com/app/4459590/",
+   "ends": 1795716033,
+   "link": "https://store.steampowered.com/app/4459590/",
    "hist": [
     5849
    ]
@@ -57,39 +129,21 @@
    ]
   },
   {
-   "id": "steam-4459590",
+   "id": "steam-5185890",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Legión del azar - Slotbound",
+   "name": "Zombies Aren't Real",
    "kind": "PC",
    "now": 5849,
    "was": 6499,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/ab63370938a804df9d1250d239d4c997683fd7cd/capsule_616x353.jpg?t=1794746612",
-   "url": "https://store.steampowered.com/app/4459590/",
-   "ends": 1795716033,
-   "link": "https://store.steampowered.com/app/4459590/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/b81ce47d316a0b28e1f54f038f35de1ccf4bfa44/capsule_616x353.jpg?t=1794756301",
+   "url": "https://store.steampowered.com/app/5185890/",
+   "ends": 1795197606,
+   "link": "https://store.steampowered.com/app/5185890/",
    "hist": [
     5849
-   ]
-  },
-  {
-   "id": "steam-5378110",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "One More Lawn",
-   "kind": "PC",
-   "now": 3219,
-   "was": 4599,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg?t=1794604627",
-   "url": "https://store.steampowered.com/app/5378110/",
-   "ends": 1795716003,
-   "link": "https://store.steampowered.com/app/5378110/",
-   "hist": [
-    3219
    ]
   },
   {
@@ -111,24 +165,6 @@
    ]
   },
   {
-   "id": "steam-817628",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
-   "kind": "PC",
-   "now": 15286,
-   "was": 46322,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/817628/capsule_616x353.jpg?t=1752520763",
-   "url": "https://store.steampowered.com/app/817628/",
-   "ends": 1795111200,
-   "link": "https://store.steampowered.com/app/817628/",
-   "hist": [
-    15286
-   ]
-  },
-  {
    "id": "steam-2536520",
    "source": "steam",
    "store": "Steam",
@@ -144,42 +180,6 @@
    "link": "https://store.steampowered.com/app/2536520/",
    "hist": [
     22743
-   ]
-  },
-  {
-   "id": "steam-2680010",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "The First Berserker: Khazan",
-   "kind": "PC",
-   "now": 21480,
-   "was": 35800,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg?t=1776936760",
-   "url": "https://store.steampowered.com/app/2680010/",
-   "ends": 1795975200,
-   "link": "https://store.steampowered.com/app/2680010/",
-   "hist": [
-    21480
-   ]
-  },
-  {
-   "id": "steam-2584270",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Mortal Shell II",
-   "kind": "PC",
-   "now": 22425,
-   "was": 29900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
-   "url": "https://store.steampowered.com/app/2584270/",
-   "ends": 1794852000,
-   "link": "https://store.steampowered.com/app/2584270/",
-   "hist": [
-    22425
    ]
   },
   {
