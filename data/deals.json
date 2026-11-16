@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:46:58+00:00",
+ "updated": "2026-11-16T05:43:34+00:00",
  "country": "CL",
  "items": [
   {
@@ -39,39 +39,21 @@
    ]
   },
   {
-   "id": "steam-489830",
+   "id": "steam-5175310",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "name": "Worst Class Ever",
    "kind": "PC",
-   "now": 5398,
-   "was": 26990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
-   "url": "https://store.steampowered.com/app/489830/",
-   "ends": 1795024800,
-   "link": "https://store.steampowered.com/app/489830/",
-   "hist": [
-    5398
-   ]
-  },
-  {
-   "id": "steam-5378110",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "One More Lawn",
-   "kind": "PC",
-   "now": 3219,
+   "now": 2989,
    "was": 4599,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg?t=1794604627",
-   "url": "https://store.steampowered.com/app/5378110/",
-   "ends": 1795716003,
-   "link": "https://store.steampowered.com/app/5378110/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794560465",
+   "url": "https://store.steampowered.com/app/5175310/",
+   "ends": 1795456811,
+   "link": "https://store.steampowered.com/app/5175310/",
    "hist": [
-    3219
+    2989
    ]
   },
   {
@@ -93,6 +75,42 @@
    ]
   },
   {
+   "id": "steam-5378110",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "One More Lawn",
+   "kind": "PC",
+   "now": 3219,
+   "was": 4599,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg?t=1794604627",
+   "url": "https://store.steampowered.com/app/5378110/",
+   "ends": 1795716003,
+   "link": "https://store.steampowered.com/app/5378110/",
+   "hist": [
+    3219
+   ]
+  },
+  {
+   "id": "steam-489830",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "kind": "PC",
+   "now": 5398,
+   "was": 26990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
+   "url": "https://store.steampowered.com/app/489830/",
+   "ends": 1795024800,
+   "link": "https://store.steampowered.com/app/489830/",
+   "hist": [
+    5398
+   ]
+  },
+  {
    "id": "steam-817628",
    "source": "steam",
    "store": "Steam",
@@ -108,6 +126,24 @@
    "link": "https://store.steampowered.com/app/817628/",
    "hist": [
     15286
+   ]
+  },
+  {
+   "id": "steam-2536520",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Diablo II: Resurrected – Infernal Edition",
+   "kind": "PC",
+   "now": 22743,
+   "was": 34990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+   "url": "https://store.steampowered.com/app/2536520/",
+   "ends": 1795024800,
+   "link": "https://store.steampowered.com/app/2536520/",
+   "hist": [
+    22743
    ]
   },
   {
@@ -144,42 +180,6 @@
    "link": "https://store.steampowered.com/app/2584270/",
    "hist": [
     22425
-   ]
-  },
-  {
-   "id": "steam-12210",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Grand Theft Auto IV: The Complete Edition",
-   "kind": "PC",
-   "now": 4497,
-   "was": 14990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
-   "url": "https://store.steampowered.com/app/12210/",
-   "ends": 1795111200,
-   "link": "https://store.steampowered.com/app/12210/",
-   "hist": [
-    4497
-   ]
-  },
-  {
-   "id": "steam-5175310",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Worst Class Ever",
-   "kind": "PC",
-   "now": 2989,
-   "was": 4599,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794560465",
-   "url": "https://store.steampowered.com/app/5175310/",
-   "ends": 1795456811,
-   "link": "https://store.steampowered.com/app/5175310/",
-   "hist": [
-    2989
    ]
   },
   {
