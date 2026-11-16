@@ -9,8 +9,10 @@ Mercado Libre y Eneba se agregan cuando existan las cuentas de afiliado.
 """
 from __future__ import annotations
 
+import html
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -70,6 +72,56 @@ def steam_specials() -> list[dict]:
             "url": f"https://store.steampowered.com/app/{app_id}/",
             "ends": it.get("discount_expiration"),
         })
+    return out
+
+
+STEAM_ROW = re.compile(r'<a [^>]*class="search_result_row[\s\S]*?</a>')
+
+
+def _digits(text: str) -> int:
+    d = re.sub(r"[^\d]", "", text or "")
+    return int(d) if d else 0
+
+
+def steam_search_specials(pages: int = 4, count: int = 50) -> list[dict]:
+    """Todas las ofertas de Steam para Chile (buscador de la tienda), no solo las destacadas."""
+    out = []
+    for page in range(pages):
+        data = get_json(
+            "https://store.steampowered.com/search/results/",
+            {"specials": 1, "cc": "cl", "l": "spanish", "infinite": 1,
+             "start": page * count, "count": count, "category1": 998},  # 998 = juegos
+        )
+        html_rows = data.get("results_html") or ""
+        rows = STEAM_ROW.findall(html_rows)
+        if not rows:
+            break
+        for row in rows:
+            app = re.search(r'data-ds-appid="(\d+)"', row)
+            title = re.search(r'<span class="title">([^<]+)</span>', row)
+            final = re.search(r'data-price-final="(\d+)"', row)
+            disc = re.search(r'data-discount="(\d+)"', row)
+            orig = re.search(r'class="discount_original_price">([^<]+)<', row)
+            if not (app and title and final and disc) or int(disc.group(1)) <= 0:
+                continue
+            app_id = app.group(1).split(",")[0]
+            now = round(int(final.group(1)) / 100)
+            pct = int(disc.group(1))
+            was = _digits(orig.group(1)) if orig else round(now / (1 - pct / 100))
+            out.append({
+                "id": f"steam-{app_id}",
+                "source": "steam",
+                "store": "Steam",
+                "cat": "juegos",
+                "name": html.unescape(title.group(1)).strip(),
+                "kind": "PC",
+                "now": now,
+                "was": max(was, now),
+                "currency": "CLP",
+                "image": f"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/{app_id}/header.jpg",
+                "url": f"https://store.steampowered.com/app/{app_id}/",
+            })
+        time.sleep(1)
     return out
 
 
@@ -164,7 +216,10 @@ def main() -> int:
     if DEALS_FILE.exists():
         previous = {d["id"]: d for d in json.loads(DEALS_FILE.read_text()).get("items", [])}
 
-    items = steam_specials() + epic_free()
+    seen, items = set(), []
+    for it in steam_specials() + steam_search_specials() + epic_free():
+        if it["id"] not in seen:
+            seen.add(it["id"]); items.append(it)
     if not items:
         print("[error] ninguna fuente respondió; se conserva el archivo anterior", file=sys.stderr)
         return 1
