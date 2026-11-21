@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:36:07+00:00",
+ "updated": "2026-11-21T05:14:26+00:00",
  "country": "CL",
  "items": [
   {
@@ -75,24 +75,6 @@
    ]
   },
   {
-   "id": "steam-1593500",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "God of War",
-   "kind": "PC",
-   "now": 14000,
-   "was": 35000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg?t=1763059412",
-   "url": "https://store.steampowered.com/app/1593500/",
-   "ends": 1796148000,
-   "link": "https://store.steampowered.com/app/1593500/",
-   "hist": [
-    14000
-   ]
-  },
-  {
    "id": "steam-1462040",
    "source": "steam",
    "store": "Steam",
@@ -108,24 +90,6 @@
    "link": "https://store.steampowered.com/app/1462040/",
    "hist": [
     5759
-   ]
-  },
-  {
-   "id": "steam-3321460",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Crimson Desert Enhanced",
-   "kind": "PC",
-   "now": 47999,
-   "was": 59999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1794478066",
-   "url": "https://store.steampowered.com/app/3321460/",
-   "ends": 1796025600,
-   "link": "https://store.steampowered.com/app/3321460/",
-   "hist": [
-    47999
    ]
   },
   {
@@ -147,6 +111,42 @@
    ]
   },
   {
+   "id": "steam-1593500",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "God of War",
+   "kind": "PC",
+   "now": 14000,
+   "was": 35000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg?t=1763059412",
+   "url": "https://store.steampowered.com/app/1593500/",
+   "ends": 1796148000,
+   "link": "https://store.steampowered.com/app/1593500/",
+   "hist": [
+    14000
+   ]
+  },
+  {
+   "id": "steam-3321460",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Crimson Desert Enhanced",
+   "kind": "PC",
+   "now": 47999,
+   "was": 59999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/c0f0866161be038cc6607824505b0cb51cd12cf0/capsule_616x353.jpg?t=1794478066",
+   "url": "https://store.steampowered.com/app/3321460/",
+   "ends": 1796025600,
+   "link": "https://store.steampowered.com/app/3321460/",
+   "hist": [
+    47999
+   ]
+  },
+  {
    "id": "steam-2531310",
    "source": "steam",
    "store": "Steam",
@@ -165,21 +165,21 @@
    ]
   },
   {
-   "id": "steam-1808500",
+   "id": "steam-1551360",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "ARC Raiders",
+   "name": "Forza Horizon 5",
    "kind": "PC",
-   "now": 14450,
-   "was": 28900,
+   "now": 17560,
+   "was": 43900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/a602a7cbfa617d23b11c13aba324e8aa6f753269/capsule_616x353_alt_assets_9.jpg?t=1794215815",
-   "url": "https://store.steampowered.com/app/1808500/",
-   "ends": 1796317200,
-   "link": "https://store.steampowered.com/app/1808500/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1788546569",
+   "url": "https://store.steampowered.com/app/1551360/",
+   "ends": 1796320800,
+   "link": "https://store.steampowered.com/app/1551360/",
    "hist": [
-    14450
+    17560
    ]
   },
   {
@@ -217,6 +217,23 @@
    ]
   },
   {
+   "id": "steam-1771300",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Kingdom Come: Deliverance II",
+   "kind": "PC",
+   "now": 14846,
+   "was": 44989,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+   "url": "https://store.steampowered.com/app/1771300/",
+   "link": "https://store.steampowered.com/app/1771300/",
+   "hist": [
+    14846
+   ]
+  },
+  {
    "id": "steam-3280350",
    "source": "steam",
    "store": "Steam",
@@ -251,20 +268,20 @@
    ]
   },
   {
-   "id": "steam-1771300",
+   "id": "steam-394360",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Kingdom Come: Deliverance II",
+   "name": "Hearts of Iron IV",
    "kind": "PC",
-   "now": 14846,
-   "was": 44989,
+   "now": 10560,
+   "was": 35200,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
-   "url": "https://store.steampowered.com/app/1771300/",
-   "link": "https://store.steampowered.com/app/1771300/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
+   "url": "https://store.steampowered.com/app/394360/",
+   "link": "https://store.steampowered.com/app/394360/",
    "hist": [
-    14846
+    10560
    ]
   },
   {
@@ -285,20 +302,20 @@
    ]
   },
   {
-   "id": "steam-394360",
+   "id": "steam-2651280",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Hearts of Iron IV",
+   "name": "Marvel's Spider-Man 2",
    "kind": "PC",
-   "now": 10560,
-   "was": 35200,
+   "now": 28140,
+   "was": 42000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/header.jpg",
-   "url": "https://store.steampowered.com/app/394360/",
-   "link": "https://store.steampowered.com/app/394360/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg",
+   "url": "https://store.steampowered.com/app/2651280/",
+   "link": "https://store.steampowered.com/app/2651280/",
    "hist": [
-    10560
+    28140
    ]
   },
   {
@@ -319,18 +336,18 @@
    ]
   },
   {
-   "id": "steam-2651280",
+   "id": "steam-3489700",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Marvel's Spider-Man 2",
+   "name": "Stellar Blade™",
    "kind": "PC",
    "now": 28140,
    "was": 42000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg",
-   "url": "https://store.steampowered.com/app/2651280/",
-   "link": "https://store.steampowered.com/app/2651280/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/header.jpg",
+   "url": "https://store.steampowered.com/app/3489700/",
+   "link": "https://store.steampowered.com/app/3489700/",
    "hist": [
     28140
    ]
@@ -370,20 +387,20 @@
    ]
   },
   {
-   "id": "steam-3489700",
+   "id": "steam-1808500",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Stellar Blade™",
+   "name": "ARC Raiders",
    "kind": "PC",
-   "now": 28140,
-   "was": 42000,
+   "now": 14450,
+   "was": 28900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/header.jpg",
-   "url": "https://store.steampowered.com/app/3489700/",
-   "link": "https://store.steampowered.com/app/3489700/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/header.jpg",
+   "url": "https://store.steampowered.com/app/1808500/",
+   "link": "https://store.steampowered.com/app/1808500/",
    "hist": [
-    28140
+    14450
    ]
   },
   {
@@ -404,6 +421,23 @@
    ]
   },
   {
+   "id": "steam-2868840",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Slay the Spire 2",
+   "kind": "PC",
+   "now": 10400,
+   "was": 13000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/header.jpg",
+   "url": "https://store.steampowered.com/app/2868840/",
+   "link": "https://store.steampowered.com/app/2868840/",
+   "hist": [
+    10400
+   ]
+  },
+  {
    "id": "steam-2420110",
    "source": "steam",
    "store": "Steam",
@@ -416,6 +450,40 @@
    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg",
    "url": "https://store.steampowered.com/app/2420110/",
    "link": "https://store.steampowered.com/app/2420110/",
+   "hist": [
+    21000
+   ]
+  },
+  {
+   "id": "steam-1144200",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Ready or Not",
+   "kind": "PC",
+   "now": 11900,
+   "was": 23800,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
+   "url": "https://store.steampowered.com/app/1144200/",
+   "link": "https://store.steampowered.com/app/1144200/",
+   "hist": [
+    11900
+   ]
+  },
+  {
+   "id": "steam-553850",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "HELLDIVERS™ 2",
+   "kind": "PC",
+   "now": 21000,
+   "was": 28000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
+   "url": "https://store.steampowered.com/app/553850/",
+   "link": "https://store.steampowered.com/app/553850/",
    "hist": [
     21000
    ]
@@ -438,20 +506,20 @@
    ]
   },
   {
-   "id": "steam-553850",
+   "id": "steam-5175310",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "HELLDIVERS™ 2",
+   "name": "Worst Class Ever",
    "kind": "PC",
-   "now": 21000,
-   "was": 28000,
+   "now": 2989,
+   "was": 4599,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
-   "url": "https://store.steampowered.com/app/553850/",
-   "link": "https://store.steampowered.com/app/553850/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/header.jpg",
+   "url": "https://store.steampowered.com/app/5175310/",
+   "link": "https://store.steampowered.com/app/5175310/",
    "hist": [
-    21000
+    2989
    ]
   },
   {
@@ -472,20 +540,20 @@
    ]
   },
   {
-   "id": "steam-2868840",
+   "id": "steam-1817190",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Slay the Spire 2",
+   "name": "Marvel’s Spider-Man: Miles Morales",
    "kind": "PC",
-   "now": 10400,
-   "was": 13000,
+   "now": 14000,
+   "was": 35000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/header.jpg",
-   "url": "https://store.steampowered.com/app/2868840/",
-   "link": "https://store.steampowered.com/app/2868840/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg",
+   "url": "https://store.steampowered.com/app/1817190/",
+   "link": "https://store.steampowered.com/app/1817190/",
    "hist": [
-    10400
+    14000
    ]
   },
   {
@@ -506,54 +574,20 @@
    ]
   },
   {
-   "id": "steam-1817190",
+   "id": "steam-1238810",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Marvel’s Spider-Man: Miles Morales",
+   "name": "Battlefield™ V",
    "kind": "PC",
-   "now": 14000,
-   "was": 35000,
+   "now": 1995,
+   "was": 39900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg",
-   "url": "https://store.steampowered.com/app/1817190/",
-   "link": "https://store.steampowered.com/app/1817190/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg",
+   "url": "https://store.steampowered.com/app/1238810/",
+   "link": "https://store.steampowered.com/app/1238810/",
    "hist": [
-    14000
-   ]
-  },
-  {
-   "id": "steam-2537590",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Microsoft Flight Simulator 2024",
-   "kind": "PC",
-   "now": 38430,
-   "was": 54900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg",
-   "url": "https://store.steampowered.com/app/2537590/",
-   "link": "https://store.steampowered.com/app/2537590/",
-   "hist": [
-    38430
-   ]
-  },
-  {
-   "id": "steam-1142710",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Total War: WARHAMMER III",
-   "kind": "PC",
-   "now": 6298,
-   "was": 41990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
-   "url": "https://store.steampowered.com/app/1142710/",
-   "link": "https://store.steampowered.com/app/1142710/",
-   "hist": [
-    6298
+    1995
    ]
   },
   {
@@ -574,54 +608,37 @@
    ]
   },
   {
-   "id": "steam-5175310",
+   "id": "steam-1142710",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Worst Class Ever",
+   "name": "Total War: WARHAMMER III",
    "kind": "PC",
-   "now": 2989,
-   "was": 4599,
+   "now": 6298,
+   "was": 41990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/header.jpg",
-   "url": "https://store.steampowered.com/app/5175310/",
-   "link": "https://store.steampowered.com/app/5175310/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+   "url": "https://store.steampowered.com/app/1142710/",
+   "link": "https://store.steampowered.com/app/1142710/",
    "hist": [
-    2989
+    6298
    ]
   },
   {
-   "id": "steam-3059520",
+   "id": "steam-2537590",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "F1® 25",
+   "name": "Microsoft Flight Simulator 2024",
    "kind": "PC",
-   "now": 26940,
-   "was": 44900,
+   "now": 38430,
+   "was": 54900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/header.jpg",
-   "url": "https://store.steampowered.com/app/3059520/",
-   "link": "https://store.steampowered.com/app/3059520/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg",
+   "url": "https://store.steampowered.com/app/2537590/",
+   "link": "https://store.steampowered.com/app/2537590/",
    "hist": [
-    26940
-   ]
-  },
-  {
-   "id": "steam-1144200",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Ready or Not",
-   "kind": "PC",
-   "now": 11900,
-   "was": 23800,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
-   "url": "https://store.steampowered.com/app/1144200/",
-   "link": "https://store.steampowered.com/app/1144200/",
-   "hist": [
-    11900
+    38430
    ]
   },
   {
@@ -659,71 +676,20 @@
    ]
   },
   {
-   "id": "steam-1238810",
+   "id": "steam-3059520",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Battlefield™ V",
+   "name": "F1® 25",
    "kind": "PC",
-   "now": 1995,
-   "was": 39900,
+   "now": 26940,
+   "was": 44900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg",
-   "url": "https://store.steampowered.com/app/1238810/",
-   "link": "https://store.steampowered.com/app/1238810/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/header.jpg",
+   "url": "https://store.steampowered.com/app/3059520/",
+   "link": "https://store.steampowered.com/app/3059520/",
    "hist": [
-    1995
-   ]
-  },
-  {
-   "id": "steam-1449110",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "The Outer Worlds 2",
-   "kind": "PC",
-   "now": 23996,
-   "was": 59990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449110/header.jpg",
-   "url": "https://store.steampowered.com/app/1449110/",
-   "link": "https://store.steampowered.com/app/1449110/",
-   "hist": [
-    23996
-   ]
-  },
-  {
-   "id": "steam-3940610",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "EA SPORTS™ Madden NFL 27",
-   "kind": "PC",
-   "now": 31450,
-   "was": 62900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/header.jpg",
-   "url": "https://store.steampowered.com/app/3940610/",
-   "link": "https://store.steampowered.com/app/3940610/",
-   "hist": [
-    31450
-   ]
-  },
-  {
-   "id": "steam-2272360",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Warhammer 40,000: Dawn of War IV",
-   "kind": "PC",
-   "now": 40949,
-   "was": 45499,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272360/header.jpg",
-   "url": "https://store.steampowered.com/app/2272360/",
-   "link": "https://store.steampowered.com/app/2272360/",
-   "hist": [
-    40949
+    26940
    ]
   },
   {
@@ -744,6 +710,23 @@
    ]
   },
   {
+   "id": "steam-4459590",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Legión del azar - Slotbound",
+   "kind": "PC",
+   "now": 5849,
+   "was": 6499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/header.jpg",
+   "url": "https://store.steampowered.com/app/4459590/",
+   "link": "https://store.steampowered.com/app/4459590/",
+   "hist": [
+    5849
+   ]
+  },
+  {
    "id": "steam-1238840",
    "source": "steam",
    "store": "Steam",
@@ -758,91 +741,6 @@
    "link": "https://store.steampowered.com/app/1238840/",
    "hist": [
     1595
-   ]
-  },
-  {
-   "id": "steam-3218350",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Melvor Idle 2: A RuneScape Adventure",
-   "kind": "PC",
-   "now": 8819,
-   "was": 9799,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/header.jpg",
-   "url": "https://store.steampowered.com/app/3218350/",
-   "link": "https://store.steampowered.com/app/3218350/",
-   "hist": [
-    8819
-   ]
-  },
-  {
-   "id": "steam-1551360",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Forza Horizon 5",
-   "kind": "PC",
-   "now": 17560,
-   "was": 43900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
-   "url": "https://store.steampowered.com/app/1551360/",
-   "link": "https://store.steampowered.com/app/1551360/",
-   "hist": [
-    17560
-   ]
-  },
-  {
-   "id": "steam-1850570",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "DEATH STRANDING DIRECTOR'S CUT",
-   "kind": "PC",
-   "now": 6999,
-   "was": 27999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
-   "url": "https://store.steampowered.com/app/1850570/",
-   "link": "https://store.steampowered.com/app/1850570/",
-   "hist": [
-    6999
-   ]
-  },
-  {
-   "id": "steam-270880",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "American Truck Simulator",
-   "kind": "PC",
-   "now": 2875,
-   "was": 11499,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg",
-   "url": "https://store.steampowered.com/app/270880/",
-   "link": "https://store.steampowered.com/app/270880/",
-   "hist": [
-    2875
-   ]
-  },
-  {
-   "id": "steam-2416450",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "MOUSE: P.I. For Hire",
-   "kind": "PC",
-   "now": 10230,
-   "was": 15500,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/header.jpg",
-   "url": "https://store.steampowered.com/app/2416450/",
-   "link": "https://store.steampowered.com/app/2416450/",
-   "hist": [
-    10230
    ]
   },
   {
@@ -863,37 +761,20 @@
    ]
   },
   {
-   "id": "steam-850190",
+   "id": "steam-2272360",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Goat Simulator 3",
+   "name": "Warhammer 40,000: Dawn of War IV",
    "kind": "PC",
-   "now": 4650,
-   "was": 15500,
+   "now": 40949,
+   "was": 45499,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/header.jpg",
-   "url": "https://store.steampowered.com/app/850190/",
-   "link": "https://store.steampowered.com/app/850190/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272360/header.jpg",
+   "url": "https://store.steampowered.com/app/2272360/",
+   "link": "https://store.steampowered.com/app/2272360/",
    "hist": [
-    4650
-   ]
-  },
-  {
-   "id": "steam-4459590",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Legión del azar - Slotbound",
-   "kind": "PC",
-   "now": 5849,
-   "was": 6499,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/header.jpg",
-   "url": "https://store.steampowered.com/app/4459590/",
-   "link": "https://store.steampowered.com/app/4459590/",
-   "hist": [
-    5849
+    40949
    ]
   },
   {
@@ -914,71 +795,54 @@
    ]
   },
   {
-   "id": "steam-1151640",
+   "id": "steam-3940610",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Horizon Zero Dawn™ Complete Edition",
-   "kind": "PC",
-   "now": 0,
-   "was": 35000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg",
-   "url": "https://store.steampowered.com/app/1151640/",
-   "link": "https://store.steampowered.com/app/1151640/",
-   "hist": [
-    0
-   ]
-  },
-  {
-   "id": "steam-1328670",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Mass Effect™ Legendary Edition",
-   "kind": "PC",
-   "now": 6585,
-   "was": 43900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg",
-   "url": "https://store.steampowered.com/app/1328670/",
-   "link": "https://store.steampowered.com/app/1328670/",
-   "hist": [
-    6585
-   ]
-  },
-  {
-   "id": "steam-1895880",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Ratchet & Clank: Una dimensión aparte",
-   "kind": "PC",
-   "now": 16800,
-   "was": 42000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/header.jpg",
-   "url": "https://store.steampowered.com/app/1895880/",
-   "link": "https://store.steampowered.com/app/1895880/",
-   "hist": [
-    16800
-   ]
-  },
-  {
-   "id": "steam-4032350",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "EA SPORTS™ College Football 27",
+   "name": "EA SPORTS™ Madden NFL 27",
    "kind": "PC",
    "now": 31450,
    "was": 62900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/header.jpg",
-   "url": "https://store.steampowered.com/app/4032350/",
-   "link": "https://store.steampowered.com/app/4032350/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/header.jpg",
+   "url": "https://store.steampowered.com/app/3940610/",
+   "link": "https://store.steampowered.com/app/3940610/",
    "hist": [
     31450
+   ]
+  },
+  {
+   "id": "steam-1850570",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "DEATH STRANDING DIRECTOR'S CUT",
+   "kind": "PC",
+   "now": 6999,
+   "was": 27999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
+   "url": "https://store.steampowered.com/app/1850570/",
+   "link": "https://store.steampowered.com/app/1850570/",
+   "hist": [
+    6999
+   ]
+  },
+  {
+   "id": "steam-1449110",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The Outer Worlds 2",
+   "kind": "PC",
+   "now": 23996,
+   "was": 59990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449110/header.jpg",
+   "url": "https://store.steampowered.com/app/1449110/",
+   "link": "https://store.steampowered.com/app/1449110/",
+   "hist": [
+    23996
    ]
   },
   {
@@ -999,6 +863,91 @@
    ]
   },
   {
+   "id": "steam-270880",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "American Truck Simulator",
+   "kind": "PC",
+   "now": 2875,
+   "was": 11499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg",
+   "url": "https://store.steampowered.com/app/270880/",
+   "link": "https://store.steampowered.com/app/270880/",
+   "hist": [
+    2875
+   ]
+  },
+  {
+   "id": "steam-3218350",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Melvor Idle 2: A RuneScape Adventure",
+   "kind": "PC",
+   "now": 8819,
+   "was": 9799,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/header.jpg",
+   "url": "https://store.steampowered.com/app/3218350/",
+   "link": "https://store.steampowered.com/app/3218350/",
+   "hist": [
+    8819
+   ]
+  },
+  {
+   "id": "steam-2416450",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "MOUSE: P.I. For Hire",
+   "kind": "PC",
+   "now": 10230,
+   "was": 15500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/header.jpg",
+   "url": "https://store.steampowered.com/app/2416450/",
+   "link": "https://store.steampowered.com/app/2416450/",
+   "hist": [
+    10230
+   ]
+  },
+  {
+   "id": "steam-850190",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Goat Simulator 3",
+   "kind": "PC",
+   "now": 4650,
+   "was": 15500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/header.jpg",
+   "url": "https://store.steampowered.com/app/850190/",
+   "link": "https://store.steampowered.com/app/850190/",
+   "hist": [
+    4650
+   ]
+  },
+  {
+   "id": "steam-1151640",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Horizon Zero Dawn™ Complete Edition",
+   "kind": "PC",
+   "now": 0,
+   "was": 35000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg",
+   "url": "https://store.steampowered.com/app/1151640/",
+   "link": "https://store.steampowered.com/app/1151640/",
+   "hist": [
+    0
+   ]
+  },
+  {
    "id": "steam-582660",
    "source": "steam",
    "store": "Steam",
@@ -1013,6 +962,57 @@
    "link": "https://store.steampowered.com/app/582660/",
    "hist": [
     1236
+   ]
+  },
+  {
+   "id": "steam-4032350",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "EA SPORTS™ College Football 27",
+   "kind": "PC",
+   "now": 31450,
+   "was": 62900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/header.jpg",
+   "url": "https://store.steampowered.com/app/4032350/",
+   "link": "https://store.steampowered.com/app/4032350/",
+   "hist": [
+    31450
+   ]
+  },
+  {
+   "id": "steam-813780",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Age of Empires II: Definitive Edition",
+   "kind": "PC",
+   "now": 12053,
+   "was": 17990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg",
+   "url": "https://store.steampowered.com/app/813780/",
+   "link": "https://store.steampowered.com/app/813780/",
+   "hist": [
+    12053
+   ]
+  },
+  {
+   "id": "steam-1328670",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Mass Effect™ Legendary Edition",
+   "kind": "PC",
+   "now": 6585,
+   "was": 43900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg",
+   "url": "https://store.steampowered.com/app/1328670/",
+   "link": "https://store.steampowered.com/app/1328670/",
+   "hist": [
+    6585
    ]
   },
   {
@@ -1033,20 +1033,37 @@
    ]
   },
   {
-   "id": "steam-244210",
+   "id": "steam-962130",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Assetto Corsa",
+   "name": "Grounded",
    "kind": "PC",
-   "now": 2625,
-   "was": 10500,
+   "now": 12396,
+   "was": 30990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg",
-   "url": "https://store.steampowered.com/app/244210/",
-   "link": "https://store.steampowered.com/app/244210/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+   "url": "https://store.steampowered.com/app/962130/",
+   "link": "https://store.steampowered.com/app/962130/",
    "hist": [
-    2625
+    12396
+   ]
+  },
+  {
+   "id": "steam-1172620",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Sea of Thieves: 2026 Edition",
+   "kind": "PC",
+   "now": 10846,
+   "was": 30990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+   "url": "https://store.steampowered.com/app/1172620/",
+   "link": "https://store.steampowered.com/app/1172620/",
+   "hist": [
+    10846
    ]
   },
   {
@@ -1067,6 +1084,74 @@
    ]
   },
   {
+   "id": "steam-1895880",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Ratchet & Clank: Una dimensión aparte",
+   "kind": "PC",
+   "now": 16800,
+   "was": 42000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/header.jpg",
+   "url": "https://store.steampowered.com/app/1895880/",
+   "link": "https://store.steampowered.com/app/1895880/",
+   "hist": [
+    16800
+   ]
+  },
+  {
+   "id": "steam-1237970",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Titanfall® 2",
+   "kind": "PC",
+   "now": 3149,
+   "was": 20999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg",
+   "url": "https://store.steampowered.com/app/1237970/",
+   "link": "https://store.steampowered.com/app/1237970/",
+   "hist": [
+    3149
+   ]
+  },
+  {
+   "id": "steam-244210",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Assetto Corsa",
+   "kind": "PC",
+   "now": 2625,
+   "was": 10500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg",
+   "url": "https://store.steampowered.com/app/244210/",
+   "link": "https://store.steampowered.com/app/244210/",
+   "hist": [
+    2625
+   ]
+  },
+  {
+   "id": "steam-2161700",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Persona 3 Reload",
+   "kind": "PC",
+   "now": 15746,
+   "was": 44990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
+   "url": "https://store.steampowered.com/app/2161700/",
+   "link": "https://store.steampowered.com/app/2161700/",
+   "hist": [
+    15746
+   ]
+  },
+  {
    "id": "steam-805550",
    "source": "steam",
    "store": "Steam",
@@ -1081,6 +1166,40 @@
    "link": "https://store.steampowered.com/app/805550/",
    "hist": [
     5998
+   ]
+  },
+  {
+   "id": "steam-400750",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Call to Arms - Gates of Hell: Ostfront",
+   "kind": "PC",
+   "now": 4500,
+   "was": 18000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/header.jpg",
+   "url": "https://store.steampowered.com/app/400750/",
+   "link": "https://store.steampowered.com/app/400750/",
+   "hist": [
+    4500
+   ]
+  },
+  {
+   "id": "steam-1222680",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Need for Speed™ Heat",
+   "kind": "PC",
+   "now": 2795,
+   "was": 55900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg",
+   "url": "https://store.steampowered.com/app/1222680/",
+   "link": "https://store.steampowered.com/app/1222680/",
+   "hist": [
+    2795
    ]
   },
   {
@@ -1118,159 +1237,6 @@
    ]
   },
   {
-   "id": "steam-1222680",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Need for Speed™ Heat",
-   "kind": "PC",
-   "now": 2795,
-   "was": 55900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg",
-   "url": "https://store.steampowered.com/app/1222680/",
-   "link": "https://store.steampowered.com/app/1222680/",
-   "hist": [
-    2795
-   ]
-  },
-  {
-   "id": "steam-2842040",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Star Wars Outlaws",
-   "kind": "PC",
-   "now": 11999,
-   "was": 59999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842040/header.jpg",
-   "url": "https://store.steampowered.com/app/2842040/",
-   "link": "https://store.steampowered.com/app/2842040/",
-   "hist": [
-    11999
-   ]
-  },
-  {
-   "id": "steam-813780",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Age of Empires II: Definitive Edition",
-   "kind": "PC",
-   "now": 12053,
-   "was": 17990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg",
-   "url": "https://store.steampowered.com/app/813780/",
-   "link": "https://store.steampowered.com/app/813780/",
-   "hist": [
-    12053
-   ]
-  },
-  {
-   "id": "steam-2161700",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Persona 3 Reload",
-   "kind": "PC",
-   "now": 15746,
-   "was": 44990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
-   "url": "https://store.steampowered.com/app/2161700/",
-   "link": "https://store.steampowered.com/app/2161700/",
-   "hist": [
-    15746
-   ]
-  },
-  {
-   "id": "steam-1237970",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Titanfall® 2",
-   "kind": "PC",
-   "now": 3149,
-   "was": 20999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg",
-   "url": "https://store.steampowered.com/app/1237970/",
-   "link": "https://store.steampowered.com/app/1237970/",
-   "hist": [
-    3149
-   ]
-  },
-  {
-   "id": "steam-400750",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call to Arms - Gates of Hell: Ostfront",
-   "kind": "PC",
-   "now": 4500,
-   "was": 18000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/header.jpg",
-   "url": "https://store.steampowered.com/app/400750/",
-   "link": "https://store.steampowered.com/app/400750/",
-   "hist": [
-    4500
-   ]
-  },
-  {
-   "id": "steam-2840770",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Avatar: Frontiers of Pandora™",
-   "kind": "PC",
-   "now": 13499,
-   "was": 26999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
-   "url": "https://store.steampowered.com/app/2840770/",
-   "link": "https://store.steampowered.com/app/2840770/",
-   "hist": [
-    13499
-   ]
-  },
-  {
-   "id": "steam-476600",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call of Duty®: WWII",
-   "kind": "PC",
-   "now": 14250,
-   "was": 57000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg",
-   "url": "https://store.steampowered.com/app/476600/",
-   "link": "https://store.steampowered.com/app/476600/",
-   "hist": [
-    14250
-   ]
-  },
-  {
-   "id": "steam-250900",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "The Binding of Isaac: Rebirth",
-   "kind": "PC",
-   "now": 5120,
-   "was": 6400,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
-   "url": "https://store.steampowered.com/app/250900/",
-   "link": "https://store.steampowered.com/app/250900/",
-   "hist": [
-    5120
-   ]
-  },
-  {
    "id": "steam-2806050",
    "source": "steam",
    "store": "Steam",
@@ -1285,91 +1251,6 @@
    "link": "https://store.steampowered.com/app/2806050/",
    "hist": [
     26994
-   ]
-  },
-  {
-   "id": "steam-1172620",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Sea of Thieves: 2026 Edition",
-   "kind": "PC",
-   "now": 10846,
-   "was": 30990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
-   "url": "https://store.steampowered.com/app/1172620/",
-   "link": "https://store.steampowered.com/app/1172620/",
-   "hist": [
-    10846
-   ]
-  },
-  {
-   "id": "steam-1222700",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "A Way Out",
-   "kind": "PC",
-   "now": 4199,
-   "was": 20999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg",
-   "url": "https://store.steampowered.com/app/1222700/",
-   "link": "https://store.steampowered.com/app/1222700/",
-   "hist": [
-    4199
-   ]
-  },
-  {
-   "id": "steam-524220",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "NieR:Automata™",
-   "kind": "PC",
-   "now": 11720,
-   "was": 29300,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg",
-   "url": "https://store.steampowered.com/app/524220/",
-   "link": "https://store.steampowered.com/app/524220/",
-   "hist": [
-    11720
-   ]
-  },
-  {
-   "id": "steam-1237320",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Sonic Frontiers",
-   "kind": "PC",
-   "now": 7122,
-   "was": 28490,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237320/header.jpg",
-   "url": "https://store.steampowered.com/app/1237320/",
-   "link": "https://store.steampowered.com/app/1237320/",
-   "hist": [
-    7122
-   ]
-  },
-  {
-   "id": "steam-2172010",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Until Dawn™",
-   "kind": "PC",
-   "now": 21000,
-   "was": 42000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/header.jpg",
-   "url": "https://store.steampowered.com/app/2172010/",
-   "link": "https://store.steampowered.com/app/2172010/",
-   "hist": [
-    21000
    ]
   },
   {
@@ -1390,20 +1271,156 @@
    ]
   },
   {
-   "id": "steam-2515020",
+   "id": "steam-524220",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "FINAL FANTASY XVI",
+   "name": "NieR:Automata™",
    "kind": "PC",
-   "now": 15999,
-   "was": 39999,
+   "now": 11720,
+   "was": 29300,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/header.jpg",
-   "url": "https://store.steampowered.com/app/2515020/",
-   "link": "https://store.steampowered.com/app/2515020/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg",
+   "url": "https://store.steampowered.com/app/524220/",
+   "link": "https://store.steampowered.com/app/524220/",
    "hist": [
-    15999
+    11720
+   ]
+  },
+  {
+   "id": "steam-476600",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Call of Duty®: WWII",
+   "kind": "PC",
+   "now": 14250,
+   "was": 57000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg",
+   "url": "https://store.steampowered.com/app/476600/",
+   "link": "https://store.steampowered.com/app/476600/",
+   "hist": [
+    14250
+   ]
+  },
+  {
+   "id": "steam-2842040",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Star Wars Outlaws",
+   "kind": "PC",
+   "now": 11999,
+   "was": 59999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842040/header.jpg",
+   "url": "https://store.steampowered.com/app/2842040/",
+   "link": "https://store.steampowered.com/app/2842040/",
+   "hist": [
+    11999
+   ]
+  },
+  {
+   "id": "steam-1237320",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Sonic Frontiers",
+   "kind": "PC",
+   "now": 7122,
+   "was": 28490,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237320/header.jpg",
+   "url": "https://store.steampowered.com/app/1237320/",
+   "link": "https://store.steampowered.com/app/1237320/",
+   "hist": [
+    7122
+   ]
+  },
+  {
+   "id": "steam-289070",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Sid Meier’s Civilization® VI",
+   "kind": "PC",
+   "now": 4499,
+   "was": 44990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+   "url": "https://store.steampowered.com/app/289070/",
+   "link": "https://store.steampowered.com/app/289070/",
+   "hist": [
+    4499
+   ]
+  },
+  {
+   "id": "steam-2840770",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Avatar: Frontiers of Pandora™",
+   "kind": "PC",
+   "now": 13499,
+   "was": 26999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/header.jpg",
+   "url": "https://store.steampowered.com/app/2840770/",
+   "link": "https://store.steampowered.com/app/2840770/",
+   "hist": [
+    13499
+   ]
+  },
+  {
+   "id": "steam-2052410",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "WITCH ON THE HOLY NIGHT",
+   "kind": "PC",
+   "now": 21194,
+   "was": 42389,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/header.jpg",
+   "url": "https://store.steampowered.com/app/2052410/",
+   "link": "https://store.steampowered.com/app/2052410/",
+   "hist": [
+    21194
+   ]
+  },
+  {
+   "id": "steam-1222700",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "A Way Out",
+   "kind": "PC",
+   "now": 4199,
+   "was": 20999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg",
+   "url": "https://store.steampowered.com/app/1222700/",
+   "link": "https://store.steampowered.com/app/1222700/",
+   "hist": [
+    4199
+   ]
+  },
+  {
+   "id": "steam-250900",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The Binding of Isaac: Rebirth",
+   "kind": "PC",
+   "now": 5120,
+   "was": 6400,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
+   "url": "https://store.steampowered.com/app/250900/",
+   "link": "https://store.steampowered.com/app/250900/",
+   "hist": [
+    5120
    ]
   },
   {
@@ -1424,54 +1441,20 @@
    ]
   },
   {
-   "id": "steam-962130",
+   "id": "steam-2515020",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Grounded",
+   "name": "FINAL FANTASY XVI",
    "kind": "PC",
-   "now": 12396,
-   "was": 30990,
+   "now": 15999,
+   "was": 39999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
-   "url": "https://store.steampowered.com/app/962130/",
-   "link": "https://store.steampowered.com/app/962130/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/header.jpg",
+   "url": "https://store.steampowered.com/app/2515020/",
+   "link": "https://store.steampowered.com/app/2515020/",
    "hist": [
-    12396
-   ]
-  },
-  {
-   "id": "steam-1774580",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "STAR WARS Jedi: Survivor™",
-   "kind": "PC",
-   "now": 8385,
-   "was": 55900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg",
-   "url": "https://store.steampowered.com/app/1774580/",
-   "link": "https://store.steampowered.com/app/1774580/",
-   "hist": [
-    8385
-   ]
-  },
-  {
-   "id": "steam-1599660",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Sackboy™ Una aventura a lo grande",
-   "kind": "PC",
-   "now": 13860,
-   "was": 42000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599660/header.jpg",
-   "url": "https://store.steampowered.com/app/1599660/",
-   "link": "https://store.steampowered.com/app/1599660/",
-   "hist": [
-    13860
+    15999
    ]
   },
   {
@@ -1509,54 +1492,20 @@
    ]
   },
   {
-   "id": "steam-2486820",
+   "id": "steam-5378110",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Sonic Racing: CrossWorlds",
+   "name": "One More Lawn",
    "kind": "PC",
-   "now": 17940,
-   "was": 29900,
+   "now": 3219,
+   "was": 4599,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/header.jpg",
-   "url": "https://store.steampowered.com/app/2486820/",
-   "link": "https://store.steampowered.com/app/2486820/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/header.jpg",
+   "url": "https://store.steampowered.com/app/5378110/",
+   "link": "https://store.steampowered.com/app/5378110/",
    "hist": [
-    17940
-   ]
-  },
-  {
-   "id": "steam-289070",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Sid Meier’s Civilization® VI",
-   "kind": "PC",
-   "now": 4499,
-   "was": 44990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
-   "url": "https://store.steampowered.com/app/289070/",
-   "link": "https://store.steampowered.com/app/289070/",
-   "hist": [
-    4499
-   ]
-  },
-  {
-   "id": "steam-2457220",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Avowed",
-   "kind": "PC",
-   "now": 22495,
-   "was": 44990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/header.jpg",
-   "url": "https://store.steampowered.com/app/2457220/",
-   "link": "https://store.steampowered.com/app/2457220/",
-   "hist": [
-    22495
+    3219
    ]
   },
   {
@@ -1577,6 +1526,57 @@
    ]
   },
   {
+   "id": "steam-2172010",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Until Dawn™",
+   "kind": "PC",
+   "now": 21000,
+   "was": 42000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/header.jpg",
+   "url": "https://store.steampowered.com/app/2172010/",
+   "link": "https://store.steampowered.com/app/2172010/",
+   "hist": [
+    21000
+   ]
+  },
+  {
+   "id": "steam-1517290",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Battlefield™ 2042",
+   "kind": "PC",
+   "now": 2345,
+   "was": 46900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg",
+   "url": "https://store.steampowered.com/app/1517290/",
+   "link": "https://store.steampowered.com/app/1517290/",
+   "hist": [
+    2345
+   ]
+  },
+  {
+   "id": "steam-2627260",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "NINJA GAIDEN 4",
+   "kind": "PC",
+   "now": 29995,
+   "was": 59990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/header.jpg",
+   "url": "https://store.steampowered.com/app/2627260/",
+   "link": "https://store.steampowered.com/app/2627260/",
+   "hist": [
+    29995
+   ]
+  },
+  {
    "id": "steam-2605790",
    "source": "steam",
    "store": "Steam",
@@ -1594,122 +1594,37 @@
    ]
   },
   {
-   "id": "steam-5378110",
+   "id": "steam-1774580",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "One More Lawn",
+   "name": "STAR WARS Jedi: Survivor™",
    "kind": "PC",
-   "now": 3219,
-   "was": 4599,
+   "now": 8385,
+   "was": 55900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/header.jpg",
-   "url": "https://store.steampowered.com/app/5378110/",
-   "link": "https://store.steampowered.com/app/5378110/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg",
+   "url": "https://store.steampowered.com/app/1774580/",
+   "link": "https://store.steampowered.com/app/1774580/",
    "hist": [
-    3219
+    8385
    ]
   },
   {
-   "id": "steam-1659040",
+   "id": "steam-2457220",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "HITMAN World of Assassination",
+   "name": "Avowed",
    "kind": "PC",
-   "now": 13400,
-   "was": 33500,
+   "now": 22495,
+   "was": 44990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/header.jpg",
-   "url": "https://store.steampowered.com/app/1659040/",
-   "link": "https://store.steampowered.com/app/1659040/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/header.jpg",
+   "url": "https://store.steampowered.com/app/2457220/",
+   "link": "https://store.steampowered.com/app/2457220/",
    "hist": [
-    13400
-   ]
-  },
-  {
-   "id": "steam-1934680",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Age of Mythology: Retold",
-   "kind": "PC",
-   "now": 9995,
-   "was": 19990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg",
-   "url": "https://store.steampowered.com/app/1934680/",
-   "link": "https://store.steampowered.com/app/1934680/",
-   "hist": [
-    9995
-   ]
-  },
-  {
-   "id": "steam-202970",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call of Duty®: Black Ops II",
-   "kind": "PC",
-   "now": 19000,
-   "was": 38000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/header.jpg",
-   "url": "https://store.steampowered.com/app/202970/",
-   "link": "https://store.steampowered.com/app/202970/",
-   "hist": [
-    19000
-   ]
-  },
-  {
-   "id": "steam-488790",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "South Park™: The Fractured But Whole™",
-   "kind": "PC",
-   "now": 7739,
-   "was": 25799,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/header.jpg",
-   "url": "https://store.steampowered.com/app/488790/",
-   "link": "https://store.steampowered.com/app/488790/",
-   "hist": [
-    7739
-   ]
-  },
-  {
-   "id": "steam-2052410",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "WITCH ON THE HOLY NIGHT",
-   "kind": "PC",
-   "now": 21194,
-   "was": 42389,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/header.jpg",
-   "url": "https://store.steampowered.com/app/2052410/",
-   "link": "https://store.steampowered.com/app/2052410/",
-   "hist": [
-    21194
-   ]
-  },
-  {
-   "id": "steam-1289670",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "EA Play",
-   "kind": "PC",
-   "now": 980,
-   "was": 4900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/header.jpg",
-   "url": "https://store.steampowered.com/app/1289670/",
-   "link": "https://store.steampowered.com/app/1289670/",
-   "hist": [
-    980
+    22495
    ]
   },
   {
@@ -1730,20 +1645,122 @@
    ]
   },
   {
-   "id": "steam-1517290",
+   "id": "steam-2486820",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Battlefield™ 2042",
+   "name": "Sonic Racing: CrossWorlds",
    "kind": "PC",
-   "now": 2345,
-   "was": 46900,
+   "now": 17940,
+   "was": 29900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg",
-   "url": "https://store.steampowered.com/app/1517290/",
-   "link": "https://store.steampowered.com/app/1517290/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/header.jpg",
+   "url": "https://store.steampowered.com/app/2486820/",
+   "link": "https://store.steampowered.com/app/2486820/",
    "hist": [
-    2345
+    17940
+   ]
+  },
+  {
+   "id": "steam-1289670",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "EA Play",
+   "kind": "PC",
+   "now": 980,
+   "was": 4900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/header.jpg",
+   "url": "https://store.steampowered.com/app/1289670/",
+   "link": "https://store.steampowered.com/app/1289670/",
+   "hist": [
+    980
+   ]
+  },
+  {
+   "id": "steam-202970",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Call of Duty®: Black Ops II",
+   "kind": "PC",
+   "now": 19000,
+   "was": 38000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/header.jpg",
+   "url": "https://store.steampowered.com/app/202970/",
+   "link": "https://store.steampowered.com/app/202970/",
+   "hist": [
+    19000
+   ]
+  },
+  {
+   "id": "steam-1599660",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Sackboy™ Una aventura a lo grande",
+   "kind": "PC",
+   "now": 13860,
+   "was": 42000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599660/header.jpg",
+   "url": "https://store.steampowered.com/app/1599660/",
+   "link": "https://store.steampowered.com/app/1599660/",
+   "hist": [
+    13860
+   ]
+  },
+  {
+   "id": "steam-1659040",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "HITMAN World of Assassination",
+   "kind": "PC",
+   "now": 13400,
+   "was": 33500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/header.jpg",
+   "url": "https://store.steampowered.com/app/1659040/",
+   "link": "https://store.steampowered.com/app/1659040/",
+   "hist": [
+    13400
+   ]
+  },
+  {
+   "id": "steam-5200620",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Dungeonbound",
+   "kind": "PC",
+   "now": 7019,
+   "was": 7799,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/header.jpg",
+   "url": "https://store.steampowered.com/app/5200620/",
+   "link": "https://store.steampowered.com/app/5200620/",
+   "hist": [
+    7019
+   ]
+  },
+  {
+   "id": "steam-1934680",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Age of Mythology: Retold",
+   "kind": "PC",
+   "now": 9995,
+   "was": 19990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg",
+   "url": "https://store.steampowered.com/app/1934680/",
+   "link": "https://store.steampowered.com/app/1934680/",
+   "hist": [
+    9995
    ]
   },
   {
@@ -1798,54 +1815,20 @@
    ]
   },
   {
-   "id": "steam-1845910",
+   "id": "steam-488790",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Dragon Age™: The Veilguard",
+   "name": "South Park™: The Fractured But Whole™",
    "kind": "PC",
-   "now": 13475,
-   "was": 53900,
+   "now": 7739,
+   "was": 25799,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/header.jpg",
-   "url": "https://store.steampowered.com/app/1845910/",
-   "link": "https://store.steampowered.com/app/1845910/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/header.jpg",
+   "url": "https://store.steampowered.com/app/488790/",
+   "link": "https://store.steampowered.com/app/488790/",
    "hist": [
-    13475
-   ]
-  },
-  {
-   "id": "steam-244850",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Space Engineers",
-   "kind": "PC",
-   "now": 8999,
-   "was": 17999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/header.jpg",
-   "url": "https://store.steampowered.com/app/244850/",
-   "link": "https://store.steampowered.com/app/244850/",
-   "hist": [
-    8999
-   ]
-  },
-  {
-   "id": "steam-2292800",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Blacksmith Master",
-   "kind": "PC",
-   "now": 4950,
-   "was": 9900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/header.jpg",
-   "url": "https://store.steampowered.com/app/2292800/",
-   "link": "https://store.steampowered.com/app/2292800/",
-   "hist": [
-    4950
+    7739
    ]
   },
   {
@@ -1866,20 +1849,37 @@
    ]
   },
   {
-   "id": "steam-5200620",
+   "id": "steam-1778820",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Dungeonbound",
+   "name": "TEKKEN 8",
    "kind": "PC",
-   "now": 7019,
-   "was": 7799,
+   "now": 19799,
+   "was": 35999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/header.jpg",
-   "url": "https://store.steampowered.com/app/5200620/",
-   "link": "https://store.steampowered.com/app/5200620/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/header.jpg",
+   "url": "https://store.steampowered.com/app/1778820/",
+   "link": "https://store.steampowered.com/app/1778820/",
    "hist": [
-    7019
+    19799
+   ]
+  },
+  {
+   "id": "steam-244850",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Space Engineers",
+   "kind": "PC",
+   "now": 8999,
+   "was": 17999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/header.jpg",
+   "url": "https://store.steampowered.com/app/244850/",
+   "link": "https://store.steampowered.com/app/244850/",
+   "hist": [
+    8999
    ]
   },
   {
@@ -1901,54 +1901,20 @@
    ]
   },
   {
-   "id": "steam-1778820",
+   "id": "steam-1845910",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "TEKKEN 8",
+   "name": "Dragon Age™: The Veilguard",
    "kind": "PC",
-   "now": 19799,
-   "was": 35999,
+   "now": 13475,
+   "was": 53900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/header.jpg",
-   "url": "https://store.steampowered.com/app/1778820/",
-   "link": "https://store.steampowered.com/app/1778820/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/header.jpg",
+   "url": "https://store.steampowered.com/app/1845910/",
+   "link": "https://store.steampowered.com/app/1845910/",
    "hist": [
-    19799
-   ]
-  },
-  {
-   "id": "steam-220200",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Kerbal Space Program",
-   "kind": "PC",
-   "now": 5725,
-   "was": 22900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg",
-   "url": "https://store.steampowered.com/app/220200/",
-   "link": "https://store.steampowered.com/app/220200/",
-   "hist": [
-    5725
-   ]
-  },
-  {
-   "id": "steam-2523720",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Gears of War: Reloaded",
-   "kind": "PC",
-   "now": 8747,
-   "was": 34990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/header.jpg",
-   "url": "https://store.steampowered.com/app/2523720/",
-   "link": "https://store.steampowered.com/app/2523720/",
-   "hist": [
-    8747
+    13475
    ]
   },
   {
@@ -1969,74 +1935,6 @@
    ]
   },
   {
-   "id": "steam-3629430",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "DREADMOOR",
-   "kind": "PC",
-   "now": 10799,
-   "was": 11999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/header.jpg",
-   "url": "https://store.steampowered.com/app/3629430/",
-   "link": "https://store.steampowered.com/app/3629430/",
-   "hist": [
-    10799
-   ]
-  },
-  {
-   "id": "steam-379430",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Kingdom Come: Deliverance",
-   "kind": "PC",
-   "now": 3448,
-   "was": 22989,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/header.jpg",
-   "url": "https://store.steampowered.com/app/379430/",
-   "link": "https://store.steampowered.com/app/379430/",
-   "hist": [
-    3448
-   ]
-  },
-  {
-   "id": "steam-4171850",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Trees Hate You",
-   "kind": "PC",
-   "now": 4523,
-   "was": 5199,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/header.jpg",
-   "url": "https://store.steampowered.com/app/4171850/",
-   "link": "https://store.steampowered.com/app/4171850/",
-   "hist": [
-    4523
-   ]
-  },
-  {
-   "id": "steam-934700",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Dead Island 2",
-   "kind": "PC",
-   "now": 5298,
-   "was": 52989,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg",
-   "url": "https://store.steampowered.com/app/934700/",
-   "link": "https://store.steampowered.com/app/934700/",
-   "hist": [
-    5298
-   ]
-  },
-  {
    "id": "steam-2492040",
    "source": "steam",
    "store": "Steam",
@@ -2051,23 +1949,6 @@
    "link": "https://store.steampowered.com/app/2492040/",
    "hist": [
     2625
-   ]
-  },
-  {
-   "id": "steam-1250410",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
-   "kind": "PC",
-   "now": 15746,
-   "was": 44990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/header.jpg",
-   "url": "https://store.steampowered.com/app/1250410/",
-   "link": "https://store.steampowered.com/app/1250410/",
-   "hist": [
-    15746
    ]
   },
   {
@@ -2088,156 +1969,54 @@
    ]
   },
   {
-   "id": "steam-292730",
+   "id": "steam-1250410",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Call of Duty®: Infinite Warfare",
+   "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
    "kind": "PC",
-   "now": 14250,
-   "was": 57000,
+   "now": 15746,
+   "was": 44990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/header.jpg",
-   "url": "https://store.steampowered.com/app/292730/",
-   "link": "https://store.steampowered.com/app/292730/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/header.jpg",
+   "url": "https://store.steampowered.com/app/1250410/",
+   "link": "https://store.steampowered.com/app/1250410/",
    "hist": [
-    14250
+    15746
    ]
   },
   {
-   "id": "steam-1649240",
+   "id": "steam-3629430",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Returnal™",
+   "name": "DREADMOOR",
    "kind": "PC",
-   "now": 13860,
-   "was": 42000,
+   "now": 10799,
+   "was": 11999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/header.jpg",
-   "url": "https://store.steampowered.com/app/1649240/",
-   "link": "https://store.steampowered.com/app/1649240/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/header.jpg",
+   "url": "https://store.steampowered.com/app/3629430/",
+   "link": "https://store.steampowered.com/app/3629430/",
    "hist": [
-    13860
+    10799
    ]
   },
   {
-   "id": "steam-916440",
+   "id": "steam-2523720",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Anno 1800",
+   "name": "Gears of War: Reloaded",
    "kind": "PC",
-   "now": 9975,
-   "was": 39900,
+   "now": 8747,
+   "was": 34990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/header.jpg",
-   "url": "https://store.steampowered.com/app/916440/",
-   "link": "https://store.steampowered.com/app/916440/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/header.jpg",
+   "url": "https://store.steampowered.com/app/2523720/",
+   "link": "https://store.steampowered.com/app/2523720/",
    "hist": [
-    9975
-   ]
-  },
-  {
-   "id": "steam-2231380",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Tom Clancy's Ghost Recon® Breakpoint",
-   "kind": "PC",
-   "now": 7980,
-   "was": 39900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/header.jpg",
-   "url": "https://store.steampowered.com/app/2231380/",
-   "link": "https://store.steampowered.com/app/2231380/",
-   "hist": [
-    7980
-   ]
-  },
-  {
-   "id": "steam-2487190",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Main Sequence",
-   "kind": "PC",
-   "now": 11192,
-   "was": 13990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487190/header.jpg",
-   "url": "https://store.steampowered.com/app/2487190/",
-   "link": "https://store.steampowered.com/app/2487190/",
-   "hist": [
-    11192
-   ]
-  },
-  {
-   "id": "steam-594570",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Total War: WARHAMMER II",
-   "kind": "PC",
-   "now": 7125,
-   "was": 28500,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/header.jpg",
-   "url": "https://store.steampowered.com/app/594570/",
-   "link": "https://store.steampowered.com/app/594570/",
-   "hist": [
-    7125
-   ]
-  },
-  {
-   "id": "steam-2627260",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "NINJA GAIDEN 4",
-   "kind": "PC",
-   "now": 29995,
-   "was": 59990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/header.jpg",
-   "url": "https://store.steampowered.com/app/2627260/",
-   "link": "https://store.steampowered.com/app/2627260/",
-   "hist": [
-    29995
-   ]
-  },
-  {
-   "id": "steam-1004640",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
-   "kind": "PC",
-   "now": 25199,
-   "was": 41999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004640/header.jpg",
-   "url": "https://store.steampowered.com/app/1004640/",
-   "link": "https://store.steampowered.com/app/1004640/",
-   "hist": [
-    25199
-   ]
-  },
-  {
-   "id": "steam-3787240",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "MARVEL Tōkon: Fighting Souls",
-   "kind": "PC",
-   "now": 29400,
-   "was": 42000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/header.jpg",
-   "url": "https://store.steampowered.com/app/3787240/",
-   "link": "https://store.steampowered.com/app/3787240/",
-   "hist": [
-    29400
+    8747
    ]
   },
   {
@@ -2258,139 +2037,37 @@
    ]
   },
   {
-   "id": "steam-1237950",
+   "id": "steam-916440",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "STAR WARS™ Battlefront™ II",
+   "name": "Anno 1800",
    "kind": "PC",
-   "now": 6380,
-   "was": 31900,
+   "now": 9975,
+   "was": 39900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
-   "url": "https://store.steampowered.com/app/1237950/",
-   "link": "https://store.steampowered.com/app/1237950/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/header.jpg",
+   "url": "https://store.steampowered.com/app/916440/",
+   "link": "https://store.steampowered.com/app/916440/",
    "hist": [
-    6380
+    9975
    ]
   },
   {
-   "id": "steam-2369390",
+   "id": "steam-379430",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Far Cry® 6",
+   "name": "Kingdom Come: Deliverance",
    "kind": "PC",
-   "now": 11225,
-   "was": 44900,
+   "now": 3448,
+   "was": 22989,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg",
-   "url": "https://store.steampowered.com/app/2369390/",
-   "link": "https://store.steampowered.com/app/2369390/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/header.jpg",
+   "url": "https://store.steampowered.com/app/379430/",
+   "link": "https://store.steampowered.com/app/379430/",
    "hist": [
-    11225
-   ]
-  },
-  {
-   "id": "steam-499170",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Order of the Sinking Star",
-   "kind": "PC",
-   "now": 14399,
-   "was": 17999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/header.jpg",
-   "url": "https://store.steampowered.com/app/499170/",
-   "link": "https://store.steampowered.com/app/499170/",
-   "hist": [
-    14399
-   ]
-  },
-  {
-   "id": "steam-2513280",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "SONIC X SHADOW GENERATIONS",
-   "kind": "PC",
-   "now": 8997,
-   "was": 35990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/header.jpg",
-   "url": "https://store.steampowered.com/app/2513280/",
-   "link": "https://store.steampowered.com/app/2513280/",
-   "hist": [
-    8997
-   ]
-  },
-  {
-   "id": "steam-213670",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "South Park™: The Stick of Truth™",
-   "kind": "PC",
-   "now": 4975,
-   "was": 19900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/header.jpg",
-   "url": "https://store.steampowered.com/app/213670/",
-   "link": "https://store.steampowered.com/app/213670/",
-   "hist": [
-    4975
-   ]
-  },
-  {
-   "id": "steam-3378960",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Lost Soul Aside™",
-   "kind": "PC",
-   "now": 13860,
-   "was": 42000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3378960/header.jpg",
-   "url": "https://store.steampowered.com/app/3378960/",
-   "link": "https://store.steampowered.com/app/3378960/",
-   "hist": [
-    13860
-   ]
-  },
-  {
-   "id": "steam-1846380",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Need for Speed™ Unbound",
-   "kind": "PC",
-   "now": 5590,
-   "was": 55900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/header.jpg",
-   "url": "https://store.steampowered.com/app/1846380/",
-   "link": "https://store.steampowered.com/app/1846380/",
-   "hist": [
-    5590
-   ]
-  },
-  {
-   "id": "steam-2784470",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "9 Kings",
-   "kind": "PC",
-   "now": 4950,
-   "was": 9900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/header.jpg",
-   "url": "https://store.steampowered.com/app/2784470/",
-   "link": "https://store.steampowered.com/app/2784470/",
-   "hist": [
-    4950
+    3448
    ]
   },
   {
@@ -2411,139 +2088,190 @@
    ]
   },
   {
-   "id": "steam-394510",
+   "id": "steam-2292800",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "HELLDIVERS™ Dive Harder Edition",
+   "name": "Blacksmith Master",
    "kind": "PC",
-   "now": 2800,
-   "was": 14000,
+   "now": 4950,
+   "was": 9900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/header.jpg",
-   "url": "https://store.steampowered.com/app/394510/",
-   "link": "https://store.steampowered.com/app/394510/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/header.jpg",
+   "url": "https://store.steampowered.com/app/2292800/",
+   "link": "https://store.steampowered.com/app/2292800/",
    "hist": [
-    2800
+    4950
    ]
   },
   {
-   "id": "steam-2072450",
+   "id": "steam-220200",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Like a Dragon: Infinite Wealth",
+   "name": "Kerbal Space Program",
    "kind": "PC",
-   "now": 9998,
-   "was": 49990,
+   "now": 5725,
+   "was": 22900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg",
-   "url": "https://store.steampowered.com/app/2072450/",
-   "link": "https://store.steampowered.com/app/2072450/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg",
+   "url": "https://store.steampowered.com/app/220200/",
+   "link": "https://store.steampowered.com/app/220200/",
    "hist": [
-    9998
+    5725
    ]
   },
   {
-   "id": "steam-2988580",
+   "id": "steam-3787240",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Yakuza 0 Director's Cut",
+   "name": "MARVEL Tōkon: Fighting Souls",
    "kind": "PC",
-   "now": 16719,
-   "was": 41799,
+   "now": 29400,
+   "was": 42000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/header.jpg",
-   "url": "https://store.steampowered.com/app/2988580/",
-   "link": "https://store.steampowered.com/app/2988580/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/header.jpg",
+   "url": "https://store.steampowered.com/app/3787240/",
+   "link": "https://store.steampowered.com/app/3787240/",
    "hist": [
-    16719
+    29400
    ]
   },
   {
-   "id": "steam-1569580",
+   "id": "steam-499170",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Blue Prince",
+   "name": "Order of the Sinking Star",
    "kind": "PC",
-   "now": 8370,
-   "was": 15500,
+   "now": 14399,
+   "was": 17999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
-   "url": "https://store.steampowered.com/app/1569580/",
-   "link": "https://store.steampowered.com/app/1569580/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/header.jpg",
+   "url": "https://store.steampowered.com/app/499170/",
+   "link": "https://store.steampowered.com/app/499170/",
    "hist": [
-    8370
+    14399
    ]
   },
   {
-   "id": "steam-1172380",
+   "id": "steam-292730",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "STAR WARS Jedi: La Orden caída™",
+   "name": "Call of Duty®: Infinite Warfare",
    "kind": "PC",
-   "now": 6380,
-   "was": 31900,
+   "now": 14250,
+   "was": 57000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/header.jpg",
-   "url": "https://store.steampowered.com/app/1172380/",
-   "link": "https://store.steampowered.com/app/1172380/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/header.jpg",
+   "url": "https://store.steampowered.com/app/292730/",
+   "link": "https://store.steampowered.com/app/292730/",
    "hist": [
-    6380
+    14250
    ]
   },
   {
-   "id": "steam-637650",
+   "id": "steam-2231380",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "FINAL FANTASY XV WINDOWS EDITION",
+   "name": "Tom Clancy's Ghost Recon® Breakpoint",
    "kind": "PC",
-   "now": 6960,
-   "was": 23200,
+   "now": 7980,
+   "was": 39900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637650/header.jpg",
-   "url": "https://store.steampowered.com/app/637650/",
-   "link": "https://store.steampowered.com/app/637650/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/header.jpg",
+   "url": "https://store.steampowered.com/app/2231380/",
+   "link": "https://store.steampowered.com/app/2231380/",
    "hist": [
-    6960
+    7980
    ]
   },
   {
-   "id": "steam-2698940",
+   "id": "steam-934700",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "The Crew Motorfest",
+   "name": "Dead Island 2",
    "kind": "PC",
-   "now": 10000,
-   "was": 49999,
+   "now": 5298,
+   "was": 52989,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/header.jpg",
-   "url": "https://store.steampowered.com/app/2698940/",
-   "link": "https://store.steampowered.com/app/2698940/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg",
+   "url": "https://store.steampowered.com/app/934700/",
+   "link": "https://store.steampowered.com/app/934700/",
    "hist": [
-    10000
+    5298
    ]
   },
   {
-   "id": "steam-4018330",
+   "id": "steam-1649240",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Lord of Undead",
+   "name": "Returnal™",
    "kind": "PC",
-   "now": 9099,
-   "was": 12999,
+   "now": 13860,
+   "was": 42000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/header.jpg",
-   "url": "https://store.steampowered.com/app/4018330/",
-   "link": "https://store.steampowered.com/app/4018330/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/header.jpg",
+   "url": "https://store.steampowered.com/app/1649240/",
+   "link": "https://store.steampowered.com/app/1649240/",
    "hist": [
-    9099
+    13860
+   ]
+  },
+  {
+   "id": "steam-2369390",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Far Cry® 6",
+   "kind": "PC",
+   "now": 11225,
+   "was": 44900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/header.jpg",
+   "url": "https://store.steampowered.com/app/2369390/",
+   "link": "https://store.steampowered.com/app/2369390/",
+   "hist": [
+    11225
+   ]
+  },
+  {
+   "id": "steam-4171850",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Trees Hate You",
+   "kind": "PC",
+   "now": 4523,
+   "was": 5199,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4171850/header.jpg",
+   "url": "https://store.steampowered.com/app/4171850/",
+   "link": "https://store.steampowered.com/app/4171850/",
+   "hist": [
+    4523
+   ]
+  },
+  {
+   "id": "steam-2487190",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Main Sequence",
+   "kind": "PC",
+   "now": 11192,
+   "was": 13990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487190/header.jpg",
+   "url": "https://store.steampowered.com/app/2487190/",
+   "link": "https://store.steampowered.com/app/2487190/",
+   "hist": [
+    11192
    ]
   },
   {
@@ -2561,6 +2289,125 @@
    "link": "https://store.steampowered.com/app/2185060/",
    "hist": [
     13058
+   ]
+  },
+  {
+   "id": "steam-594570",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Total War: WARHAMMER II",
+   "kind": "PC",
+   "now": 7125,
+   "was": 28500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/header.jpg",
+   "url": "https://store.steampowered.com/app/594570/",
+   "link": "https://store.steampowered.com/app/594570/",
+   "hist": [
+    7125
+   ]
+  },
+  {
+   "id": "steam-2513280",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "SONIC X SHADOW GENERATIONS",
+   "kind": "PC",
+   "now": 8997,
+   "was": 35990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/header.jpg",
+   "url": "https://store.steampowered.com/app/2513280/",
+   "link": "https://store.steampowered.com/app/2513280/",
+   "hist": [
+    8997
+   ]
+  },
+  {
+   "id": "steam-1846380",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Need for Speed™ Unbound",
+   "kind": "PC",
+   "now": 5590,
+   "was": 55900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/header.jpg",
+   "url": "https://store.steampowered.com/app/1846380/",
+   "link": "https://store.steampowered.com/app/1846380/",
+   "hist": [
+    5590
+   ]
+  },
+  {
+   "id": "steam-1237950",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "STAR WARS™ Battlefront™ II",
+   "kind": "PC",
+   "now": 6380,
+   "was": 31900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
+   "url": "https://store.steampowered.com/app/1237950/",
+   "link": "https://store.steampowered.com/app/1237950/",
+   "hist": [
+    6380
+   ]
+  },
+  {
+   "id": "steam-1004640",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+   "kind": "PC",
+   "now": 25199,
+   "was": 41999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004640/header.jpg",
+   "url": "https://store.steampowered.com/app/1004640/",
+   "link": "https://store.steampowered.com/app/1004640/",
+   "hist": [
+    25199
+   ]
+  },
+  {
+   "id": "steam-394510",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "HELLDIVERS™ Dive Harder Edition",
+   "kind": "PC",
+   "now": 2800,
+   "was": 14000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/header.jpg",
+   "url": "https://store.steampowered.com/app/394510/",
+   "link": "https://store.steampowered.com/app/394510/",
+   "hist": [
+    2800
+   ]
+  },
+  {
+   "id": "steam-2988580",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Yakuza 0 Director's Cut",
+   "kind": "PC",
+   "now": 16719,
+   "was": 41799,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/header.jpg",
+   "url": "https://store.steampowered.com/app/2988580/",
+   "link": "https://store.steampowered.com/app/2988580/",
+   "hist": [
+    16719
    ]
   },
   {
@@ -2582,241 +2429,37 @@
    ]
   },
   {
-   "id": "steam-42700",
+   "id": "steam-2784470",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Call of Duty®: Black Ops",
+   "name": "9 Kings",
    "kind": "PC",
-   "now": 19000,
-   "was": 38000,
+   "now": 4950,
+   "was": 9900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg",
-   "url": "https://store.steampowered.com/app/42700/",
-   "link": "https://store.steampowered.com/app/42700/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/header.jpg",
+   "url": "https://store.steampowered.com/app/2784470/",
+   "link": "https://store.steampowered.com/app/2784470/",
    "hist": [
-    19000
+    4950
    ]
   },
   {
-   "id": "steam-2680010",
+   "id": "steam-1569580",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "The First Berserker: Khazan",
+   "name": "Blue Prince",
    "kind": "PC",
-   "now": 21480,
-   "was": 35800,
+   "now": 8370,
+   "was": 15500,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
-   "url": "https://store.steampowered.com/app/2680010/",
-   "link": "https://store.steampowered.com/app/2680010/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg",
+   "url": "https://store.steampowered.com/app/1569580/",
+   "link": "https://store.steampowered.com/app/1569580/",
    "hist": [
-    21480
-   ]
-  },
-  {
-   "id": "steam-460930",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Tom Clancy's Ghost Recon® Wildlands",
-   "kind": "PC",
-   "now": 9000,
-   "was": 44999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
-   "url": "https://store.steampowered.com/app/460930/",
-   "link": "https://store.steampowered.com/app/460930/",
-   "hist": [
-    9000
-   ]
-  },
-  {
-   "id": "steam-3065800",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Marathon",
-   "kind": "PC",
-   "now": 18855,
-   "was": 41900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/header.jpg",
-   "url": "https://store.steampowered.com/app/3065800/",
-   "link": "https://store.steampowered.com/app/3065800/",
-   "hist": [
-    18855
-   ]
-  },
-  {
-   "id": "steam-2138710",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Sifu",
-   "kind": "PC",
-   "now": 3507,
-   "was": 14030,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg",
-   "url": "https://store.steampowered.com/app/2138710/",
-   "link": "https://store.steampowered.com/app/2138710/",
-   "hist": [
-    3507
-   ]
-  },
-  {
-   "id": "steam-3014320",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "OCTOPATH TRAVELER 0",
-   "kind": "PC",
-   "now": 20999,
-   "was": 41999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/header.jpg",
-   "url": "https://store.steampowered.com/app/3014320/",
-   "link": "https://store.steampowered.com/app/3014320/",
-   "hist": [
-    20999
-   ]
-  },
-  {
-   "id": "steam-3314070",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Los Sims™ 2 Colección Legado",
-   "kind": "PC",
-   "now": 13450,
-   "was": 26900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314070/header.jpg",
-   "url": "https://store.steampowered.com/app/3314070/",
-   "link": "https://store.steampowered.com/app/3314070/",
-   "hist": [
-    13450
-   ]
-  },
-  {
-   "id": "steam-17390",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "SPORE™",
-   "kind": "PC",
-   "now": 2799,
-   "was": 13999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/header.jpg",
-   "url": "https://store.steampowered.com/app/17390/",
-   "link": "https://store.steampowered.com/app/17390/",
-   "hist": [
-    2799
-   ]
-  },
-  {
-   "id": "steam-42680",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call of Duty®: Modern Warfare® 3 (2011)",
-   "kind": "PC",
-   "now": 19000,
-   "was": 38000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/header.jpg",
-   "url": "https://store.steampowered.com/app/42680/",
-   "link": "https://store.steampowered.com/app/42680/",
-   "hist": [
-    19000
-   ]
-  },
-  {
-   "id": "steam-1676840",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "For The King II",
-   "kind": "PC",
-   "now": 4500,
-   "was": 15000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/header.jpg",
-   "url": "https://store.steampowered.com/app/1676840/",
-   "link": "https://store.steampowered.com/app/1676840/",
-   "hist": [
-    4500
-   ]
-  },
-  {
-   "id": "steam-364360",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Total War: WARHAMMER",
-   "kind": "PC",
-   "now": 7125,
-   "was": 28500,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364360/header.jpg",
-   "url": "https://store.steampowered.com/app/364360/",
-   "link": "https://store.steampowered.com/app/364360/",
-   "hist": [
-    7125
-   ]
-  },
-  {
-   "id": "steam-1922560",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Plants vs. Zombies™ Garden Warfare 2: Edición Deluxe",
-   "kind": "PC",
-   "now": 7770,
-   "was": 25900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg",
-   "url": "https://store.steampowered.com/app/1922560/",
-   "link": "https://store.steampowered.com/app/1922560/",
-   "hist": [
-    7770
-   ]
-  },
-  {
-   "id": "steam-3949290",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Ys X: Proud Nordics",
-   "kind": "PC",
-   "now": 25125,
-   "was": 33500,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/header.jpg",
-   "url": "https://store.steampowered.com/app/3949290/",
-   "link": "https://store.steampowered.com/app/3949290/",
-   "hist": [
-    25125
-   ]
-  },
-  {
-   "id": "steam-304390",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "FOR HONOR™",
-   "kind": "PC",
-   "now": 3749,
-   "was": 24999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/header.jpg",
-   "url": "https://store.steampowered.com/app/304390/",
-   "link": "https://store.steampowered.com/app/304390/",
-   "hist": [
-    3749
+    8370
    ]
   },
   {
@@ -2837,20 +2480,258 @@
    ]
   },
   {
-   "id": "steam-3316940",
+   "id": "steam-2072450",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "The Legend of Heroes: Trails beyond the Horizon",
+   "name": "Like a Dragon: Infinite Wealth",
    "kind": "PC",
-   "now": 21375,
-   "was": 28500,
+   "now": 9998,
+   "was": 49990,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/header.jpg",
-   "url": "https://store.steampowered.com/app/3316940/",
-   "link": "https://store.steampowered.com/app/3316940/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg",
+   "url": "https://store.steampowered.com/app/2072450/",
+   "link": "https://store.steampowered.com/app/2072450/",
    "hist": [
-    21375
+    9998
+   ]
+  },
+  {
+   "id": "steam-1676840",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "For The King II",
+   "kind": "PC",
+   "now": 4500,
+   "was": 15000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/header.jpg",
+   "url": "https://store.steampowered.com/app/1676840/",
+   "link": "https://store.steampowered.com/app/1676840/",
+   "hist": [
+    4500
+   ]
+  },
+  {
+   "id": "steam-3378960",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Lost Soul Aside™",
+   "kind": "PC",
+   "now": 13860,
+   "was": 42000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3378960/header.jpg",
+   "url": "https://store.steampowered.com/app/3378960/",
+   "link": "https://store.steampowered.com/app/3378960/",
+   "hist": [
+    13860
+   ]
+  },
+  {
+   "id": "steam-637650",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "FINAL FANTASY XV WINDOWS EDITION",
+   "kind": "PC",
+   "now": 6960,
+   "was": 23200,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637650/header.jpg",
+   "url": "https://store.steampowered.com/app/637650/",
+   "link": "https://store.steampowered.com/app/637650/",
+   "hist": [
+    6960
+   ]
+  },
+  {
+   "id": "steam-1057090",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Ori and the Will of the Wisps",
+   "kind": "PC",
+   "now": 6247,
+   "was": 24990,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
+   "url": "https://store.steampowered.com/app/1057090/",
+   "link": "https://store.steampowered.com/app/1057090/",
+   "hist": [
+    6247
+   ]
+  },
+  {
+   "id": "steam-213670",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "South Park™: The Stick of Truth™",
+   "kind": "PC",
+   "now": 4975,
+   "was": 19900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/header.jpg",
+   "url": "https://store.steampowered.com/app/213670/",
+   "link": "https://store.steampowered.com/app/213670/",
+   "hist": [
+    4975
+   ]
+  },
+  {
+   "id": "steam-2138710",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Sifu",
+   "kind": "PC",
+   "now": 3507,
+   "was": 14030,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg",
+   "url": "https://store.steampowered.com/app/2138710/",
+   "link": "https://store.steampowered.com/app/2138710/",
+   "hist": [
+    3507
+   ]
+  },
+  {
+   "id": "steam-1172380",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "STAR WARS Jedi: La Orden caída™",
+   "kind": "PC",
+   "now": 6380,
+   "was": 31900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/header.jpg",
+   "url": "https://store.steampowered.com/app/1172380/",
+   "link": "https://store.steampowered.com/app/1172380/",
+   "hist": [
+    6380
+   ]
+  },
+  {
+   "id": "steam-2698940",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The Crew Motorfest",
+   "kind": "PC",
+   "now": 10000,
+   "was": 49999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/header.jpg",
+   "url": "https://store.steampowered.com/app/2698940/",
+   "link": "https://store.steampowered.com/app/2698940/",
+   "hist": [
+    10000
+   ]
+  },
+  {
+   "id": "steam-460930",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Tom Clancy's Ghost Recon® Wildlands",
+   "kind": "PC",
+   "now": 9000,
+   "was": 44999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
+   "url": "https://store.steampowered.com/app/460930/",
+   "link": "https://store.steampowered.com/app/460930/",
+   "hist": [
+    9000
+   ]
+  },
+  {
+   "id": "steam-601150",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Devil May Cry 5",
+   "kind": "PC",
+   "now": 5475,
+   "was": 21900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/header.jpg",
+   "url": "https://store.steampowered.com/app/601150/",
+   "link": "https://store.steampowered.com/app/601150/",
+   "hist": [
+    5475
+   ]
+  },
+  {
+   "id": "steam-3014320",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "OCTOPATH TRAVELER 0",
+   "kind": "PC",
+   "now": 20999,
+   "was": 41999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/header.jpg",
+   "url": "https://store.steampowered.com/app/3014320/",
+   "link": "https://store.steampowered.com/app/3014320/",
+   "hist": [
+    20999
+   ]
+  },
+  {
+   "id": "steam-42700",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Call of Duty®: Black Ops",
+   "kind": "PC",
+   "now": 19000,
+   "was": 38000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg",
+   "url": "https://store.steampowered.com/app/42700/",
+   "link": "https://store.steampowered.com/app/42700/",
+   "hist": [
+    19000
+   ]
+  },
+  {
+   "id": "steam-4018330",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Lord of Undead",
+   "kind": "PC",
+   "now": 9099,
+   "was": 12999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018330/header.jpg",
+   "url": "https://store.steampowered.com/app/4018330/",
+   "link": "https://store.steampowered.com/app/4018330/",
+   "hist": [
+    9099
+   ]
+  },
+  {
+   "id": "steam-3065800",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Marathon",
+   "kind": "PC",
+   "now": 18855,
+   "was": 41900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/header.jpg",
+   "url": "https://store.steampowered.com/app/3065800/",
+   "link": "https://store.steampowered.com/app/3065800/",
+   "hist": [
+    18855
    ]
   },
   {
@@ -2871,18 +2752,154 @@
    ]
   },
   {
-   "id": "steam-1238860",
+   "id": "steam-364360",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Battlefield 4™",
+   "name": "Total War: WARHAMMER",
+   "kind": "PC",
+   "now": 7125,
+   "was": 28500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364360/header.jpg",
+   "url": "https://store.steampowered.com/app/364360/",
+   "link": "https://store.steampowered.com/app/364360/",
+   "hist": [
+    7125
+   ]
+  },
+  {
+   "id": "steam-2680010",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "The First Berserker: Khazan",
+   "kind": "PC",
+   "now": 21480,
+   "was": 35800,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/header.jpg",
+   "url": "https://store.steampowered.com/app/2680010/",
+   "link": "https://store.steampowered.com/app/2680010/",
+   "hist": [
+    21480
+   ]
+  },
+  {
+   "id": "steam-304390",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "FOR HONOR™",
+   "kind": "PC",
+   "now": 3749,
+   "was": 24999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/header.jpg",
+   "url": "https://store.steampowered.com/app/304390/",
+   "link": "https://store.steampowered.com/app/304390/",
+   "hist": [
+    3749
+   ]
+  },
+  {
+   "id": "steam-3949290",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Ys X: Proud Nordics",
+   "kind": "PC",
+   "now": 25125,
+   "was": 33500,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/header.jpg",
+   "url": "https://store.steampowered.com/app/3949290/",
+   "link": "https://store.steampowered.com/app/3949290/",
+   "hist": [
+    25125
+   ]
+  },
+  {
+   "id": "steam-1922560",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Plants vs. Zombies™ Garden Warfare 2: Edición Deluxe",
+   "kind": "PC",
+   "now": 7770,
+   "was": 25900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg",
+   "url": "https://store.steampowered.com/app/1922560/",
+   "link": "https://store.steampowered.com/app/1922560/",
+   "hist": [
+    7770
+   ]
+  },
+  {
+   "id": "steam-4183130",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "WE'RE ALL IN!",
+   "kind": "PC",
+   "now": 3223,
+   "was": 5199,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183130/header.jpg",
+   "url": "https://store.steampowered.com/app/4183130/",
+   "link": "https://store.steampowered.com/app/4183130/",
+   "hist": [
+    3223
+   ]
+  },
+  {
+   "id": "steam-779340",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Total War: THREE KINGDOMS",
+   "kind": "PC",
+   "now": 8070,
+   "was": 26900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg",
+   "url": "https://store.steampowered.com/app/779340/",
+   "link": "https://store.steampowered.com/app/779340/",
+   "hist": [
+    8070
+   ]
+  },
+  {
+   "id": "steam-17390",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "SPORE™",
+   "kind": "PC",
+   "now": 2799,
+   "was": 13999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/header.jpg",
+   "url": "https://store.steampowered.com/app/17390/",
+   "link": "https://store.steampowered.com/app/17390/",
+   "hist": [
+    2799
+   ]
+  },
+  {
+   "id": "steam-1238820",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Battlefield 3™",
    "kind": "PC",
    "now": 1595,
    "was": 31900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/header.jpg",
-   "url": "https://store.steampowered.com/app/1238860/",
-   "link": "https://store.steampowered.com/app/1238860/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/header.jpg",
+   "url": "https://store.steampowered.com/app/1238820/",
+   "link": "https://store.steampowered.com/app/1238820/",
    "hist": [
     1595
    ]
@@ -2905,241 +2922,54 @@
    ]
   },
   {
-   "id": "steam-1113560",
+   "id": "steam-42680",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "NieR Replicant™ ver.1.22474487139...",
+   "name": "Call of Duty®: Modern Warfare® 3 (2011)",
    "kind": "PC",
-   "now": 15999,
-   "was": 39999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113560/header.jpg",
-   "url": "https://store.steampowered.com/app/1113560/",
-   "link": "https://store.steampowered.com/app/1113560/",
-   "hist": [
-    15999
-   ]
-  },
-  {
-   "id": "steam-3917090",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Assetto Corsa Rally",
-   "kind": "PC",
-   "now": 13560,
-   "was": 16950,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917090/header.jpg",
-   "url": "https://store.steampowered.com/app/3917090/",
-   "link": "https://store.steampowered.com/app/3917090/",
-   "hist": [
-    13560
-   ]
-  },
-  {
-   "id": "steam-1238820",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Battlefield 3™",
-   "kind": "PC",
-   "now": 1595,
-   "was": 31900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/header.jpg",
-   "url": "https://store.steampowered.com/app/1238820/",
-   "link": "https://store.steampowered.com/app/1238820/",
-   "hist": [
-    1595
-   ]
-  },
-  {
-   "id": "steam-214950",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Total War: ROME II - Emperor Edition",
-   "kind": "PC",
-   "now": 4750,
-   "was": 19000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/header.jpg",
-   "url": "https://store.steampowered.com/app/214950/",
-   "link": "https://store.steampowered.com/app/214950/",
-   "hist": [
-    4750
-   ]
-  },
-  {
-   "id": "steam-393080",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call of Duty®: Modern Warfare® Remastered (2017)",
-   "kind": "PC",
-   "now": 15200,
+   "now": 19000,
    "was": 38000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg",
-   "url": "https://store.steampowered.com/app/393080/",
-   "link": "https://store.steampowered.com/app/393080/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/header.jpg",
+   "url": "https://store.steampowered.com/app/42680/",
+   "link": "https://store.steampowered.com/app/42680/",
    "hist": [
-    15200
+    19000
    ]
   },
   {
-   "id": "steam-1372110",
+   "id": "steam-3316940",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+   "name": "The Legend of Heroes: Trails beyond the Horizon",
    "kind": "PC",
-   "now": 12459,
-   "was": 44499,
+   "now": 21375,
+   "was": 28500,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/header.jpg",
-   "url": "https://store.steampowered.com/app/1372110/",
-   "link": "https://store.steampowered.com/app/1372110/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/header.jpg",
+   "url": "https://store.steampowered.com/app/3316940/",
+   "link": "https://store.steampowered.com/app/3316940/",
    "hist": [
-    12459
+    21375
    ]
   },
   {
-   "id": "steam-4493130",
+   "id": "steam-3101040",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Ski-E-O! Imperio en la nieve",
+   "name": "Magical Girl Witch Trials (魔法少女ノ魔女裁判)",
    "kind": "PC",
-   "now": 11699,
-   "was": 12999,
+   "now": 12400,
+   "was": 15500,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/header.jpg",
-   "url": "https://store.steampowered.com/app/4493130/",
-   "link": "https://store.steampowered.com/app/4493130/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg",
+   "url": "https://store.steampowered.com/app/3101040/",
+   "link": "https://store.steampowered.com/app/3101040/",
    "hist": [
-    11699
-   ]
-  },
-  {
-   "id": "steam-2058190",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Lost Judgment",
-   "kind": "PC",
-   "now": 5698,
-   "was": 28490,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
-   "url": "https://store.steampowered.com/app/2058190/",
-   "link": "https://store.steampowered.com/app/2058190/",
-   "hist": [
-    5698
-   ]
-  },
-  {
-   "id": "steam-5196330",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "IT THINKS! - Build Your Own GPU",
-   "kind": "PC",
-   "now": 7839,
-   "was": 9799,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/header.jpg",
-   "url": "https://store.steampowered.com/app/5196330/",
-   "link": "https://store.steampowered.com/app/5196330/",
-   "hist": [
-    7839
-   ]
-  },
-  {
-   "id": "steam-3654560",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Plants vs. Zombies™: Trasplantado",
-   "kind": "PC",
-   "now": 9845,
-   "was": 17900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/header.jpg",
-   "url": "https://store.steampowered.com/app/3654560/",
-   "link": "https://store.steampowered.com/app/3654560/",
-   "hist": [
-    9845
-   ]
-  },
-  {
-   "id": "steam-4199960",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "The Jackbox Party Pack 12",
-   "kind": "PC",
-   "now": 13499,
-   "was": 17999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/header.jpg",
-   "url": "https://store.steampowered.com/app/4199960/",
-   "link": "https://store.steampowered.com/app/4199960/",
-   "hist": [
-    13499
-   ]
-  },
-  {
-   "id": "steam-209160",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Call of Duty®: Ghosts",
-   "kind": "PC",
-   "now": 15200,
-   "was": 38000,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/header.jpg",
-   "url": "https://store.steampowered.com/app/209160/",
-   "link": "https://store.steampowered.com/app/209160/",
-   "hist": [
-    15200
-   ]
-  },
-  {
-   "id": "steam-2781660",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Dawn of Defense",
-   "kind": "PC",
-   "now": 11699,
-   "was": 12999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781660/header.jpg",
-   "url": "https://store.steampowered.com/app/2781660/",
-   "link": "https://store.steampowered.com/app/2781660/",
-   "hist": [
-    11699
-   ]
-  },
-  {
-   "id": "steam-779340",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Total War: THREE KINGDOMS",
-   "kind": "PC",
-   "now": 8070,
-   "was": 26900,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg",
-   "url": "https://store.steampowered.com/app/779340/",
-   "link": "https://store.steampowered.com/app/779340/",
-   "hist": [
-    8070
+    12400
    ]
   },
   {
@@ -3160,20 +2990,88 @@
    ]
   },
   {
-   "id": "steam-921570",
+   "id": "steam-1238860",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "OCTOPATH TRAVELER™",
+   "name": "Battlefield 4™",
    "kind": "PC",
-   "now": 11865,
-   "was": 39550,
+   "now": 1595,
+   "was": 31900,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/921570/header.jpg",
-   "url": "https://store.steampowered.com/app/921570/",
-   "link": "https://store.steampowered.com/app/921570/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/header.jpg",
+   "url": "https://store.steampowered.com/app/1238860/",
+   "link": "https://store.steampowered.com/app/1238860/",
    "hist": [
-    11865
+    1595
+   ]
+  },
+  {
+   "id": "steam-2058190",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Lost Judgment",
+   "kind": "PC",
+   "now": 5698,
+   "was": 28490,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
+   "url": "https://store.steampowered.com/app/2058190/",
+   "link": "https://store.steampowered.com/app/2058190/",
+   "hist": [
+    5698
+   ]
+  },
+  {
+   "id": "steam-3917090",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Assetto Corsa Rally",
+   "kind": "PC",
+   "now": 13560,
+   "was": 16950,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917090/header.jpg",
+   "url": "https://store.steampowered.com/app/3917090/",
+   "link": "https://store.steampowered.com/app/3917090/",
+   "hist": [
+    13560
+   ]
+  },
+  {
+   "id": "steam-3314070",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Los Sims™ 2 Colección Legado",
+   "kind": "PC",
+   "now": 13450,
+   "was": 26900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314070/header.jpg",
+   "url": "https://store.steampowered.com/app/3314070/",
+   "link": "https://store.steampowered.com/app/3314070/",
+   "hist": [
+    13450
+   ]
+  },
+  {
+   "id": "steam-3654560",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Plants vs. Zombies™: Trasplantado",
+   "kind": "PC",
+   "now": 9845,
+   "was": 17900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/header.jpg",
+   "url": "https://store.steampowered.com/app/3654560/",
+   "link": "https://store.steampowered.com/app/3654560/",
+   "hist": [
+    9845
    ]
   },
   {
@@ -3194,190 +3092,139 @@
    ]
   },
   {
-   "id": "steam-1222690",
+   "id": "steam-921570",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Dragon Age™ Inquisition",
+   "name": "OCTOPATH TRAVELER™",
    "kind": "PC",
-   "now": 6980,
-   "was": 34900,
+   "now": 11865,
+   "was": 39550,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222690/header.jpg",
-   "url": "https://store.steampowered.com/app/1222690/",
-   "link": "https://store.steampowered.com/app/1222690/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/921570/header.jpg",
+   "url": "https://store.steampowered.com/app/921570/",
+   "link": "https://store.steampowered.com/app/921570/",
    "hist": [
-    6980
+    11865
    ]
   },
   {
-   "id": "steam-2624870",
+   "id": "steam-209160",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Life is Strange: Reunion",
+   "name": "Call of Duty®: Ghosts",
    "kind": "PC",
-   "now": 22099,
-   "was": 33999,
+   "now": 15200,
+   "was": 38000,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/header.jpg",
-   "url": "https://store.steampowered.com/app/2624870/",
-   "link": "https://store.steampowered.com/app/2624870/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/header.jpg",
+   "url": "https://store.steampowered.com/app/209160/",
+   "link": "https://store.steampowered.com/app/209160/",
    "hist": [
-    22099
+    15200
    ]
   },
   {
-   "id": "steam-3124340",
+   "id": "steam-5196330",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Demeo x Dungeons & Dragons: Battlemarked",
+   "name": "IT THINKS! - Build Your Own GPU",
    "kind": "PC",
-   "now": 10075,
-   "was": 15500,
+   "now": 7839,
+   "was": 9799,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124340/header.jpg",
-   "url": "https://store.steampowered.com/app/3124340/",
-   "link": "https://store.steampowered.com/app/3124340/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196330/header.jpg",
+   "url": "https://store.steampowered.com/app/5196330/",
+   "link": "https://store.steampowered.com/app/5196330/",
    "hist": [
-    10075
+    7839
    ]
   },
   {
-   "id": "steam-1817230",
+   "id": "steam-4493130",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Hi-Fi RUSH",
+   "name": "Ski-E-O! Imperio en la nieve",
    "kind": "PC",
-   "now": 10305,
-   "was": 22900,
+   "now": 11699,
+   "was": 12999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/header.jpg",
-   "url": "https://store.steampowered.com/app/1817230/",
-   "link": "https://store.steampowered.com/app/1817230/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/header.jpg",
+   "url": "https://store.steampowered.com/app/4493130/",
+   "link": "https://store.steampowered.com/app/4493130/",
    "hist": [
-    10305
+    11699
    ]
   },
   {
-   "id": "steam-1262560",
+   "id": "steam-4199960",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Need for Speed™ Most Wanted",
+   "name": "The Jackbox Party Pack 12",
    "kind": "PC",
-   "now": 2799,
-   "was": 13999,
+   "now": 13499,
+   "was": 17999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/header.jpg",
-   "url": "https://store.steampowered.com/app/1262560/",
-   "link": "https://store.steampowered.com/app/1262560/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/header.jpg",
+   "url": "https://store.steampowered.com/app/4199960/",
+   "link": "https://store.steampowered.com/app/4199960/",
    "hist": [
-    2799
+    13499
    ]
   },
   {
-   "id": "steam-1133870",
+   "id": "steam-2273430",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Space Engineers 2",
-   "kind": "PC",
-   "now": 21599,
-   "was": 26999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133870/header.jpg",
-   "url": "https://store.steampowered.com/app/1133870/",
-   "link": "https://store.steampowered.com/app/1133870/",
-   "hist": [
-    21599
-   ]
-  },
-  {
-   "id": "steam-2670630",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Supermarket Simulator",
+   "name": "BlazBlue Entropy Effect",
    "kind": "PC",
    "now": 6300,
    "was": 10500,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/header.jpg",
-   "url": "https://store.steampowered.com/app/2670630/",
-   "link": "https://store.steampowered.com/app/2670630/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273430/header.jpg",
+   "url": "https://store.steampowered.com/app/2273430/",
+   "link": "https://store.steampowered.com/app/2273430/",
    "hist": [
     6300
    ]
   },
   {
-   "id": "steam-1205520",
+   "id": "steam-2781660",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Pentiment",
+   "name": "Dawn of Defense",
    "kind": "PC",
-   "now": 3497,
-   "was": 13990,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/header.jpg",
-   "url": "https://store.steampowered.com/app/1205520/",
-   "link": "https://store.steampowered.com/app/1205520/",
-   "hist": [
-    3497
-   ]
-  },
-  {
-   "id": "steam-2321960",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Spirit Crossing",
-   "kind": "PC",
-   "now": 16199,
-   "was": 17999,
-   "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321960/header.jpg",
-   "url": "https://store.steampowered.com/app/2321960/",
-   "link": "https://store.steampowered.com/app/2321960/",
-   "hist": [
-    16199
-   ]
-  },
-  {
-   "id": "steam-4860910",
-   "source": "steam",
-   "store": "Steam",
-   "cat": "juegos",
-   "name": "Prison Legacy",
-   "kind": "PC",
-   "now": 9749,
+   "now": 11699,
    "was": 12999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4860910/header.jpg",
-   "url": "https://store.steampowered.com/app/4860910/",
-   "link": "https://store.steampowered.com/app/4860910/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781660/header.jpg",
+   "url": "https://store.steampowered.com/app/2781660/",
+   "link": "https://store.steampowered.com/app/2781660/",
    "hist": [
-    9749
+    11699
    ]
   },
   {
-   "id": "steam-1057090",
+   "id": "steam-1113560",
    "source": "steam",
    "store": "Steam",
    "cat": "juegos",
-   "name": "Ori and the Will of the Wisps",
+   "name": "NieR Replicant™ ver.1.22474487139...",
    "kind": "PC",
-   "now": 6247,
-   "was": 24990,
+   "now": 15999,
+   "was": 39999,
    "currency": "CLP",
-   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
-   "url": "https://store.steampowered.com/app/1057090/",
-   "link": "https://store.steampowered.com/app/1057090/",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113560/header.jpg",
+   "url": "https://store.steampowered.com/app/1113560/",
+   "link": "https://store.steampowered.com/app/1113560/",
    "hist": [
-    6247
+    15999
    ]
   },
   {
@@ -3395,6 +3242,142 @@
    "link": "https://store.steampowered.com/app/4113940/",
    "hist": [
     9200
+   ]
+  },
+  {
+   "id": "steam-2893570",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "DRAGON QUEST I & II HD-2D Remake",
+   "kind": "PC",
+   "now": 32499,
+   "was": 49999,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2893570/header.jpg",
+   "url": "https://store.steampowered.com/app/2893570/",
+   "link": "https://store.steampowered.com/app/2893570/",
+   "hist": [
+    32499
+   ]
+  },
+  {
+   "id": "steam-1372110",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+   "kind": "PC",
+   "now": 12459,
+   "was": 44499,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/header.jpg",
+   "url": "https://store.steampowered.com/app/1372110/",
+   "link": "https://store.steampowered.com/app/1372110/",
+   "hist": [
+    12459
+   ]
+  },
+  {
+   "id": "steam-1824220",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Chivalry 2",
+   "kind": "PC",
+   "now": 2980,
+   "was": 14900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg",
+   "url": "https://store.steampowered.com/app/1824220/",
+   "link": "https://store.steampowered.com/app/1824220/",
+   "hist": [
+    2980
+   ]
+  },
+  {
+   "id": "steam-1135690",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Unpacking",
+   "kind": "PC",
+   "now": 5320,
+   "was": 13300,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/header.jpg",
+   "url": "https://store.steampowered.com/app/1135690/",
+   "link": "https://store.steampowered.com/app/1135690/",
+   "hist": [
+    5320
+   ]
+  },
+  {
+   "id": "steam-288470",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Fable Anniversary",
+   "kind": "PC",
+   "now": 4800,
+   "was": 16000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg",
+   "url": "https://store.steampowered.com/app/288470/",
+   "link": "https://store.steampowered.com/app/288470/",
+   "hist": [
+    4800
+   ]
+  },
+  {
+   "id": "steam-1875830",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Shin Megami Tensei V: Vengeance",
+   "kind": "PC",
+   "now": 17370,
+   "was": 57900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/header.jpg",
+   "url": "https://store.steampowered.com/app/1875830/",
+   "link": "https://store.steampowered.com/app/1875830/",
+   "hist": [
+    17370
+   ]
+  },
+  {
+   "id": "steam-2277560",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "WUCHANG: Fallen Feathers",
+   "kind": "PC",
+   "now": 23730,
+   "was": 33900,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/header.jpg",
+   "url": "https://store.steampowered.com/app/2277560/",
+   "link": "https://store.steampowered.com/app/2277560/",
+   "hist": [
+    23730
+   ]
+  },
+  {
+   "id": "steam-393080",
+   "source": "steam",
+   "store": "Steam",
+   "cat": "juegos",
+   "name": "Call of Duty®: Modern Warfare® Remastered (2017)",
+   "kind": "PC",
+   "now": 15200,
+   "was": 38000,
+   "currency": "CLP",
+   "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg",
+   "url": "https://store.steampowered.com/app/393080/",
+   "link": "https://store.steampowered.com/app/393080/",
+   "hist": [
+    15200
    ]
   },
   {
