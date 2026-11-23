@@ -30,8 +30,8 @@ button{font-family:inherit;cursor:pointer;color:inherit}
 .dot{position:absolute;top:9px;right:10px;width:9px;height:9px;border-radius:50%;background:var(--lime);border:2px solid var(--card2)}
 .avatar{width:44px;height:44px;border-radius:14px;background:var(--violet);color:var(--bg);display:flex;align-items:center;justify-content:center;font-family:Unbounded;font-weight:800;transform:rotate(-6deg)}
 .hero{background:var(--lime);color:var(--bg);border-radius:28px;padding:20px;position:relative;overflow:hidden;border:0;text-align:left;width:100%;display:flex;flex-direction:column;gap:14px}
-.hero .ring{position:absolute;right:-30px;top:-30px;width:170px;height:170px;border-radius:50%;border:22px solid var(--bg)}
-.hero .sq{position:absolute;right:38px;top:38px;width:34px;height:34px;border-radius:10px;background:var(--violet);transform:rotate(18deg)}
+.hero .ring{position:absolute;right:-50px;top:-62px;width:150px;height:150px;border-radius:50%;border:22px solid var(--bg)}
+.hero .sq{position:absolute;right:26px;top:22px;width:34px;height:34px;border-radius:10px;background:var(--violet);transform:rotate(18deg)}
 .pill{align-self:flex-start;background:var(--bg);color:var(--lime);font-size:12px;font-weight:700;letter-spacing:.08em;padding:6px 12px;border-radius:999px;position:relative}
 .cta{align-self:flex-start;display:flex;align-items:center;gap:8px;background:var(--bg);color:var(--ink);font-weight:700;font-size:15px;padding:13px 20px;border-radius:16px;position:relative}
 .chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
@@ -169,6 +169,7 @@ body.split-on .toast{bottom:calc(42vh + 12px)}
 .onb-sizes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .onb-sizes .chip{padding:0}
 .buy[disabled]{opacity:.4}
+.hero > :not(.ring):not(.sq){position:relative;z-index:1}
 /* ---------- Publicidad ---------- */
 .ad{background:var(--card);border:1.5px dashed #3A3A48;border-radius:20px;padding:12px 14px;display:flex;flex-direction:column;gap:10px}
 .ad-top{display:flex;justify-content:space-between;align-items:center}
