@@ -43,4 +43,4 @@ Ofertas, Videojuegos, Comparador de precios
 ## Archivos gráficos (carpeta store/)
 - Ícono 512×512: icon-512.png
 - Gráfico destacado 1024×500: feature-1024x500.png
-- Capturas de teléfono 1080×2160: screen-1-hoy.png, screen-2-buscar.png, screen-3-detalle.png
+- Capturas de teléfono 1080×1920 (9:16): screen-1-hoy.png, screen-2-buscar.png, screen-3-detalle.png, screen-4-alertas.png
