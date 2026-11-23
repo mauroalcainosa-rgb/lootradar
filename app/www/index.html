@@ -500,7 +500,7 @@ function viewHoy(){
     </div>
     ${showGifts && gifts.length ? `<div class="row between" style="align-items:baseline"><h2>Gift cards</h2><span class="small mute">${gifts.length} disponibles</span></div>
     <div class="hscroll">${gifts.map((p,i) => giftCard(p,i)).join('')}</div>` : ''}
-    <div class="demo">Precios de Steam y Epic para Chile · ${updatedText()} · Solo mayores de 18 años</div>
+    <div class="demo">Precios de Steam y Epic para Chile · ${updatedText()} · Solo mayores de 18 años · <button data-privacy style="border:0;background:none;color:inherit;font:inherit;text-decoration:underline;padding:0">Política de privacidad</button></div>
   </div>`;
 }
 
@@ -758,6 +758,7 @@ document.addEventListener('click', e => {
   else if (d.follow){ S.follow[d.follow] = !S.follow[d.follow]; save(); toast(S.follow[d.follow] ? 'Ahora sigues ' + byId[d.follow].name : 'Dejaste de seguirlo'); openProduct(d.follow); }
   else if (d.alert){ const r = document.getElementById('lim'); const max = r ? +r.value : 0; S.alerts[d.alert] = {on:true, max}; S.follow[d.alert] = true; save(); toast('Alerta creada bajo ' + clp(max)); openProduct(d.alert); }
   else if (d.sw){ S.alerts[d.sw].on = !S.alerts[d.sw].on; save(); render(); toast(S.alerts[d.sw].on ? 'Alerta activada' : 'Alerta en pausa'); }
+  else if ('privacy' in d){ const B = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Browser; const u = 'https://mauroalcainosa-rgb.github.io/lootradar/privacidad.html'; if (B) B.open({url:u}); else window.open(u, '_blank', 'noopener'); }
   else if ('buy' in d){ e.preventDefault(); if (d.buy) openExternal(d.buy); }
 });
 function closeSheetIfOpen(){ if (S.open) { document.getElementById('sheet').classList.remove('open'); S.open = null; } }
