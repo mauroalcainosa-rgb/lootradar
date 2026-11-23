@@ -4,9 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LootRadar</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://shared.akamai.steamstatic.com https://cdn.akamai.steamstatic.com https://*.epicgames.com; connect-src 'self' https://mauroalcainosa-rgb.github.io; base-uri 'none'; form-action 'none'; object-src 'none'">
 <style>
+@font-face{font-family:Unbounded;font-weight:600;font-display:swap;src:url(fonts/unbounded-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Unbounded;font-weight:800;font-display:swap;src:url(fonts/unbounded-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:500;font-display:swap;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;font-display:swap;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
 :root{--bg:#0B0B0F;--card:#15151C;--card2:#1A1A22;--line:#2A2A35;--ink:#F4F4F0;--mute:#A1A1AA;--lime:#C6FF3D;--violet:#8B5CFF;--orange:#FF7A1A}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
@@ -273,6 +278,10 @@ function toProduct(it){
   while (raw.length < 6) raw.unshift(it.was || it.now);
   const top = Math.max(1, it.was || 0, ...raw);
   return Object.assign({}, it, {
+    id: String(it.id).replace(/[^\w-]/g, ''),
+    image: it.image ? safeImg(it.image) : '',
+    link: safeUrl(it.link || ''), url: safeUrl(it.url || ''),
+    now: Math.max(0, Number(it.now) || 0), was: Math.max(0, Number(it.was) || 0),
     mk, bg: COLORS[h % COLORS.length],
     hist: raw.map(v => Math.max(4, Math.round(v / top * 72))),
     stores: [[it.store, it.now]],
@@ -313,7 +322,13 @@ function checkAlerts(){
   const p = byId[hits[0][0]];
   toast(hits.length === 1 ? p.name + ' bajó de tu límite' : hits.length + ' alertas bajo tu límite');
 }
+// Solo se abren enlaces https de tiendas conocidas, aunque el archivo de datos fuera alterado
+const SAFE_HOSTS = ['store.steampowered.com','store.epicgames.com','www.mercadolibre.cl','articulo.mercadolibre.cl','listado.mercadolibre.cl'];
+function safeUrl(u){ try { const x = new URL(u); return x.protocol === 'https:' && SAFE_HOSTS.includes(x.hostname) ? x.href : ''; } catch(e){ return ''; } }
+const IMG_HOSTS = ['shared.akamai.steamstatic.com','cdn.akamai.steamstatic.com'];
+function safeImg(u){ try { const x = new URL(u); return x.protocol === 'https:' && (IMG_HOSTS.includes(x.hostname) || x.hostname.endsWith('.epicgames.com')) ? x.href : ''; } catch(e){ return ''; } }
 function openExternal(url){
+  url = safeUrl(url); if (!url){ toast('Enlace no disponible'); return; }
   const B = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Browser;
   if (B) B.open({url}); else window.open(url, '_blank', 'noopener');
 }
@@ -413,35 +428,6 @@ function openStory(id, k){
 }
 function closeStory(){ clearTimeout(S.storyT); const v = document.getElementById('story'); v.classList.remove('open'); S.story = null; render(); }
 
-// Pop-up flash: una vez por sesión, desde arriba, no bloquea la pantalla
-function flashPop(){ return;
-  if (S.flashShown || S.open || S.story || S.tab !== 'hoy') return;
-  S.flashShown = true;
-  const p = byId.ap, f = document.getElementById('flash');
-  f.innerHTML = `<div class="t" style="background:${p.bg}">${p.mk}</div>
-    <div class="grow"><div class="small" style="color:var(--lime);font-weight:700;letter-spacing:.06em">OFERTA FLASH · 2 HORAS</div><div class="name">${p.name} a ${clp(p.now)}</div></div>
-    <button class="ad-cta" data-flashopen="ap">Ver</button><button class="ad-x" data-flashx aria-label="Cerrar aviso">×</button>`;
-  f.classList.add('show');
-  S.flashT = setTimeout(() => f.classList.remove('show'), 7000);
-}
-
-// Publicidad de ejemplo: integrada en el flujo, rotulada y descartable
-function adBanner(){
-  if (S.noAds || S.adHidden) return '';
-  return `<div class="ad" role="complementary" aria-label="Publicidad">
-    <div class="ad-top"><span class="ad-tag">Publicidad</span><button class="ad-x" data-closead aria-label="Ocultar anuncio">×</button></div>
-    <div class="row"><div class="ad-logo" aria-hidden="true"><span></span></div>
-      <div class="grow"><div class="name" style="font-size:14px">Fundas Orbit</div><div class="small mute">Fundas para celular desde ${clp(6990)}</div></div>
-      <button class="ad-cta" data-adcta>Ver</button></div>
-    <button class="ad-premium" data-premium>Quitar anuncios con Premium</button>
-  </div>`;
-}
-function adRow(){
-  if (S.noAds) return '';
-  return `<div class="item ad-row" role="complementary" aria-label="Publicidad"><div class="t ad-logo" aria-hidden="true"><span></span></div>
-    <div class="grow"><div class="row" style="gap:8px"><span class="name">Fundas Orbit</span><span class="ad-tag">Patrocinado</span></div><div class="small mute">Fundas para celular desde ${clp(6990)}</div></div>
-    <button class="ad-cta" data-adcta>Ver</button></div>`;
-}
 
 function flagChip(code){ return `<span class="flag" aria-hidden="true">${code}</span>`; }
 
@@ -512,7 +498,6 @@ function viewHoy(){
     </div>
     ${showGifts && gifts.length ? `<div class="row between" style="align-items:baseline"><h2>Gift cards</h2><span class="small mute">${gifts.length} disponibles</span></div>
     <div class="hscroll">${gifts.map((p,i) => giftCard(p,i)).join('')}</div>` : ''}
-    ${adBanner()}
     <div class="demo">Precios de Steam y Epic para Chile · ${updatedText()} · Solo mayores de 18 años</div>
   </div>`;
 }
@@ -590,7 +575,7 @@ function viewBuscar(){
     <label class="search">${IC.search}<input id="q" type="search" placeholder="Busca un juego o gift card…" value="${esc(S.q)}" aria-label="Buscar productos" autocomplete="off"></label>
     ${S.budgetOn ? `<div class="row" style="gap:8px"><span class="chip on" style="display:inline-flex;align-items:center;height:40px">Hasta ${fmt(budget())}</span><button class="chip" data-budgetoff style="height:40px">Quitar filtro ×</button></div>` : ''}
     <div class="small mute">${q || S.budgetOn ? res.length + ' resultado' + (res.length === 1 ? '' : 's') : 'Todo lo que estamos rastreando'}</div>
-    <div class="list" id="results">${res.length ? res.map((p,i) => rowItem(p) + (i === 2 ? adRow() : '')).join('') : '<div class="empty">No encontramos eso todavía. Pronto rastrearemos más tiendas.</div>'}</div>
+    <div class="list" id="results">${res.length ? res.map((p,i) => rowItem(p)).join('') : '<div class="empty">No encontramos eso todavía. Pronto rastrearemos más tiendas.</div>'}</div>
   </div>`;
 }
 
@@ -749,12 +734,7 @@ document.addEventListener('click', e => {
   else if ('closestory' in d){ closeStory(); }
   else if (d.storynav){ const s = S.story; if (s){ const k = s.k + (+d.storynav); if (k < 0) openStory(s.id, 0); else openStory(s.id, k); } }
   else if (d.storyopen){ closeStory(); openProduct(d.storyopen); }
-  else if (d.flashopen){ document.getElementById('flash').classList.remove('show'); openProduct(d.flashopen); }
-  else if ('flashx' in d){ document.getElementById('flash').classList.remove('show'); }
   else if ('country' in d){ openCountries(); }
-  else if ('closead' in d){ const ad = t.closest('.ad'); if (ad){ ad.style.transition = 'opacity .25s, transform .25s'; ad.style.opacity = 0; ad.style.transform = 'scale(.96)'; setTimeout(() => { S.adHidden = true; ad.remove(); }, 250); } toast('Anuncio oculto'); }
-  else if ('adcta' in d){ toast('Aquí se abriría el sitio del anunciante'); }
-  else if ('premium' in d){ toast('Premium: sin anuncios y alertas al instante'); }
   else if (d.setcountry){ S.country = d.setcountry; save(); closeSheet(); toast('Precios en ' + C().cur + ' · ' + C().name); }
   else if (d.follow){ S.follow[d.follow] = !S.follow[d.follow]; save(); toast(S.follow[d.follow] ? 'Ahora sigues ' + byId[d.follow].name : 'Dejaste de seguirlo'); openProduct(d.follow); }
   else if (d.alert){ const r = document.getElementById('lim'); const max = r ? +r.value : 0; S.alerts[d.alert] = {on:true, max}; S.follow[d.alert] = true; save(); toast('Alerta creada bajo ' + clp(max)); openProduct(d.alert); }

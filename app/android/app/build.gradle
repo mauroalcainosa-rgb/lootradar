@@ -16,8 +16,20 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            // La llave de subida nunca va en el repositorio: se lee de variables de entorno (secretos de GitHub)
+            if (System.getenv("LR_KEYSTORE_FILE")) {
+                storeFile file(System.getenv("LR_KEYSTORE_FILE"))
+                storePassword System.getenv("LR_KEYSTORE_PASSWORD")
+                keyAlias System.getenv("LR_KEY_ALIAS")
+                keyPassword System.getenv("LR_KEY_PASSWORD")
+            }
+        }
+    }
     buildTypes {
         release {
+            if (System.getenv("LR_KEYSTORE_FILE")) signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

@@ -104,6 +104,8 @@ def steam_search_specials(pages: int = 4, count: int = 50) -> list[dict]:
             orig = re.search(r'class="discount_original_price">([^<]+)<', row)
             if not (app and title and final and disc) or int(disc.group(1)) <= 0:
                 continue
+            if int(final.group(1)) <= 0 or int(disc.group(1)) >= 100:
+                continue  # el buscador marca como "gratis" juegos retirados o solo para dueños
             app_id = app.group(1).split(",")[0]
             now = round(int(final.group(1)) / 100)
             pct = int(disc.group(1))

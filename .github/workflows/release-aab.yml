@@ -1,0 +1,56 @@
+name: Compilar versión para Google Play (AAB)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  aab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - run: npm ci
+      - run: npx cap sync android
+
+      - name: Preparar llave de subida (si está configurada)
+        env:
+          LR_KEYSTORE_B64: ${{ secrets.LR_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$LR_KEYSTORE_B64" ]; then
+            echo "$LR_KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "LR_KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+          else
+            echo "Sin llave en GitHub: se genera un AAB sin firmar para firmarlo en tu computador."
+          fi
+
+      - name: Compilar AAB
+        working-directory: app/android
+        env:
+          LR_KEYSTORE_PASSWORD: ${{ secrets.LR_KEYSTORE_PASSWORD }}
+          LR_KEY_ALIAS: ${{ secrets.LR_KEY_ALIAS }}
+          LR_KEY_PASSWORD: ${{ secrets.LR_KEY_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew bundleRelease --no-daemon
+
+      - name: Borrar llave temporal
+        if: always()
+        run: rm -f "$RUNNER_TEMP/upload.jks"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lootradar-aab
+          path: app/android/app/build/outputs/bundle/release/*.aab
+          retention-days: 30
